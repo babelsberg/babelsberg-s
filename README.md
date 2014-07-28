@@ -2,7 +2,7 @@ Babelsberg/S
 =============
 [![Build Status](https://travis-ci.org/timfel/babelsberg-js.png?branch=master)](https://travis-ci.org/timfel/babelsberg-s)
 
-A LivelyKernel implementation of Babelsberg licensed under [MIT](https://github.com/timfel/babelsberg-s/blob/master/LICENSE)
+A Squeak/Smalltalk implementation of Babelsberg licensed under [MIT](https://github.com/timfel/babelsberg-s/blob/master/LICENSE)
 
 See also [Babelsberg/R](https://github.com/timfel/babelsberg-r) and [Babelsberg/JS](https://github.com/timfel/babelsberg-js)
 
