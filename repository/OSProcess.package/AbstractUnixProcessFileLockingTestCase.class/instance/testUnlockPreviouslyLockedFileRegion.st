@@ -1,4 +1,0 @@
-testing - platform specific
-testUnlockPreviouslyLockedFileRegion
-
-	self subclassResponsibility

@@ -1,4 +1,0 @@
-*MethodWrappers
-clientMethod
-
-	^ self

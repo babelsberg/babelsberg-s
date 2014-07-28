@@ -1,3 +1,0 @@
-Instance Variables:
-
-	x	<Integer>

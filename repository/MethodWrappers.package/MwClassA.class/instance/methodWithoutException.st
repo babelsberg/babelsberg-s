@@ -1,4 +1,0 @@
-debugging
-methodWithoutException
-
-	^ 69

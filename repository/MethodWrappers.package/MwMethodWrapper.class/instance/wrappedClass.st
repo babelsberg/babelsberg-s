@@ -1,4 +1,0 @@
-derived accessing
-wrappedClass
-
-	^ wrappedClass

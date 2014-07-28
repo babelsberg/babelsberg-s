@@ -1,4 +1,0 @@
-environment
-getCwd
-
-	self subclassResponsibility

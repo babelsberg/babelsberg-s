@@ -1,3 +1,0 @@
-AsyncFileReadStream implements event-driven read behavior on a file stream. Whenever data is available, a #changed event is generated. An AsyncFileReadStream expects to have a client object respond immediately to the change notification by reading the available data, otherwise a possibly endless stream of change notifications will be generated.
-
-AsyncFileReadStream requires aio support in the AioPlugin module.

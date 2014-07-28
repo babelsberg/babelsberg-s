@@ -1,4 +1,0 @@
-accessing
-programName
-
-	^ programName

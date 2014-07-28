@@ -1,4 +1,0 @@
-*MethodWrappers
-unwrappedMethod
-
-	^ self

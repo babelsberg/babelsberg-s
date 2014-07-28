@@ -1,4 +1,0 @@
-evaluating
-beforeMethod
-
-	self shouldNotImplement.

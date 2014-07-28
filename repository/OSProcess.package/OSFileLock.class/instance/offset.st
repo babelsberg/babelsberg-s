@@ -1,3 +1,0 @@
-private
-offset
-	^ 0

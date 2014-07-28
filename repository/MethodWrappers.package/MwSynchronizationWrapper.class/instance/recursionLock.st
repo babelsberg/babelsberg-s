@@ -1,4 +1,0 @@
-derived accessing
-recursionLock
-
-	^ recursionLock

@@ -1,4 +1,0 @@
-accessing
-ppid
-
-	^ ppid

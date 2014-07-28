@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"isResponsibleForThisPlatform" : "dtl 8/30/2003 17:47" },
-	"instance" : {
-		"command:" : "dtl 10/18/2001 20:18",
-		"forkAndExec:arguments:environment:descriptors:" : "dtl 10/18/2001 20:18",
-		"getCwd" : "dtl 1/23/2013 21:09",
-		"initialize" : "dtl 10/14/2001 14:03",
-		"isResponsibleForThisPlatform" : "dtl 8/30/2003 17:47" } }

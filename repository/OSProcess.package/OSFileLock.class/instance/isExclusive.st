@@ -1,3 +1,0 @@
-testing
-isExclusive
-	^ self exclusive

@@ -1,5 +1,0 @@
-accessing
-result
-	"^ <Integer>"
-
-	^ result

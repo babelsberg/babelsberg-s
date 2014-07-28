@@ -1,4 +1,0 @@
-derived accessing
-wrappingWrapper
-
-	^ wrappingWrapper
