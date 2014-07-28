@@ -1,0 +1,17 @@
+{
+	"category" : "OSProcess-Win32",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 9/25/2005 16:31",
+	"instvars" : [
+		"processHandle",
+		"environment",
+		"mainThread",
+		"threads" ],
+	"name" : "WindowsProcess",
+	"pools" : [
+		 ],
+	"super" : "ThisOSProcess",
+	"type" : "normal" }

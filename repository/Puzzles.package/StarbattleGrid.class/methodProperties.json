@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"cellClass" : "mg 7/2/2014 17:06" },
+	"instance" : {
+		"createConstraints" : "mg 7/21/2014 14:36",
+		"initialize" : "mg 6/30/2014 17:33",
+		"removeStarAtX:y:" : "mg 7/3/2014 18:22",
+		"suggestStarAtX:y:" : "mg 7/3/2014 18:17" } }

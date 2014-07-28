@@ -1,0 +1,14 @@
+{
+	"category" : "OSProcess-Unix",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 8/23/2012 22:48",
+	"instvars" : [
+		"intValue" ],
+	"name" : "UnixProcessExitStatus",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

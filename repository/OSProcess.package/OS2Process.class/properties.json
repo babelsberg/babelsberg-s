@@ -1,0 +1,14 @@
+{
+	"category" : "OSProcess-OS2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "OS2Process",
+	"pools" : [
+		 ],
+	"super" : "ThisOSProcess",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Cassowary-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Zero" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClSymbolicWeight",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "variable" }

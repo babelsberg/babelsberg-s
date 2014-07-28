@@ -1,0 +1,4 @@
+*Constraints
+isBinaryExpression
+
+	^ false

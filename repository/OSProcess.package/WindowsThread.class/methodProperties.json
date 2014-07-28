@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"threadID:handle:" : "dtl 2/25/2002 07:00",
+		"threadID:handle:running:" : "dtl 2/26/2002 07:17" },
+	"instance" : {
+		"closeHandle" : "dtl 2/25/2002 07:38",
+		"complete" : "dtl 2/26/2002 10:45",
+		"handle" : "dtl 2/25/2002 06:39",
+		"handle:" : "dtl 2/25/2002 06:38",
+		"initialize" : "dtl 2/25/2002 07:03",
+		"isComplete" : "dtl 2/25/2002 06:37",
+		"isRunning" : "dtl 2/25/2002 06:37",
+		"printOn:" : "dtl 2/27/2002 12:02",
+		"runState" : "dtl 1/25/2004 11:01",
+		"runState:" : "dtl 2/25/2002 07:02",
+		"running" : "dtl 2/25/2002 06:36",
+		"terminate" : "dtl 2/27/2002 11:35",
+		"threadID" : "dtl 2/25/2002 06:40",
+		"threadID:" : "dtl 2/25/2002 06:40",
+		"unknownRunState" : "dtl 2/25/2002 06:36" } }

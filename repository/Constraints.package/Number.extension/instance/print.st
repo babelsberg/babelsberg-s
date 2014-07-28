@@ -1,0 +1,4 @@
+*Constraints
+print
+
+	^ self value

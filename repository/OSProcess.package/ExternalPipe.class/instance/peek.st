@@ -1,0 +1,4 @@
+accessing
+peek
+
+	^ reader peek

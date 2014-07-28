@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asLinearExpression" : "jcg 5/7/2001 18:19",
+		"cnEqual:" : "jcg 5/7/2001 18:19",
+		"cnEqual:strength:" : "jcg 5/7/2001 18:20",
+		"cnEqual:strength:weight:" : "jcg 5/7/2001 18:21",
+		"cnGEQ:" : "jcg 5/7/2001 18:22",
+		"cnGEQ:strength:" : "jcg 5/7/2001 18:23",
+		"cnGEQ:strength:weight:" : "jcg 5/7/2001 18:24",
+		"cnLEQ:" : "jcg 5/7/2001 18:24",
+		"cnLEQ:strength:" : "jcg 5/7/2001 18:25",
+		"cnLEQ:strength:weight:" : "jcg 5/7/2001 18:26" } }

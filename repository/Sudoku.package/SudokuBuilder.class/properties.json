@@ -1,0 +1,16 @@
+{
+	"category" : "Sudoku-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sudokuGUI",
+		"sudokuSolver",
+		"strategies" ],
+	"name" : "SudokuBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

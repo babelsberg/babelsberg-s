@@ -1,0 +1,4 @@
+*MethodWrappers
+clientMethod
+
+	^ self

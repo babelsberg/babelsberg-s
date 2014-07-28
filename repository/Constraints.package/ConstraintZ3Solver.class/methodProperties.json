@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"constraintClass" : "mg 5/13/2014 13:10",
+		"constraintVariableFor:" : "mg 7/18/2014 14:01",
+		"constraintVariableFor:withName:" : "mg 7/14/2014 16:36",
+		"newZ3Solver" : "mg 5/12/2014 14:39" },
+	"instance" : {
+		"addStay:" : "mg 6/19/2014 15:40",
+		"addVariable:" : "mg 5/28/2014 14:06",
+		"binaryPath" : "tfel 7/24/2014 13:37",
+		"buildProgramWithVars:" : "mg 6/6/2014 12:00",
+		"executeProgram:" : "mg 7/11/2014 11:59",
+		"initialize" : "mg 5/12/2014 16:25",
+		"isZ3Solver" : "mg 7/4/2014 13:07",
+		"parseResult:" : "mg 7/3/2014 13:05",
+		"setConstraintVariableValues:From:" : "mg 6/6/2014 12:01",
+		"solve" : "mg 6/6/2014 12:09",
+		"variableType" : "mg 5/28/2014 11:09",
+		"variableType:" : "mg 5/28/2014 14:06",
+		"variables" : "mg 5/12/2014 16:21" } }

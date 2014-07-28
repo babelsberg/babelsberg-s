@@ -1,0 +1,4 @@
+comparing
+isBinaryExpression
+
+	^ true

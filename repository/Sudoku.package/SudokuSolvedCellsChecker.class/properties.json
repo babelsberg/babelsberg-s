@@ -1,0 +1,14 @@
+{
+	"category" : "Sudoku-Calculation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SudokuSolvedCellsChecker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

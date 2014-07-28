@@ -1,0 +1,3 @@
+derived accessing
+afterBlock
+	^ afterBlock

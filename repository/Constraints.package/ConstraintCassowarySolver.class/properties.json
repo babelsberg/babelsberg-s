@@ -1,0 +1,15 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		"CassowarySolver",
+		"ExternalCassowarySolver" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mg 5/12/2014 14:27",
+	"instvars" : [
+		"externalSolver" ],
+	"name" : "ConstraintCassowarySolver",
+	"pools" : [
+		 ],
+	"super" : "ConstraintSolver",
+	"type" : "normal" }

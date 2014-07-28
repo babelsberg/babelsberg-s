@@ -1,0 +1,17 @@
+{
+	"category" : "OSProcess-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 3/7/2006 06:55",
+	"instvars" : [
+		"nonBlockingMode",
+		"readBuffer",
+		"readSyncSemaphore",
+		"dataAvailableSemaphore" ],
+	"name" : "BufferedAsyncFileReadStream",
+	"pools" : [
+		 ],
+	"super" : "AsyncFileReadStream",
+	"type" : "normal" }

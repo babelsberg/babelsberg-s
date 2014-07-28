@@ -1,0 +1,14 @@
+{
+	"category" : "Sudoku-Calculation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SudokuStateCandidatesToRemove",
+	"pools" : [
+		 ],
+	"super" : "SudokuSolverState",
+	"type" : "normal" }

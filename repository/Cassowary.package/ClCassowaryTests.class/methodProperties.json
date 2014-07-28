@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"haltFirst:" : "eem 4/2/2012 17:20",
+		"initialize" : "eem 4/2/2012 17:20",
+		"testAddDelete1" : "eem 4/2/2012 17:22",
+		"testAddDelete2" : "eem 4/2/2012 17:22",
+		"testAddDelete3" : "eem 4/2/2012 17:23",
+		"testEdit1" : "eem 4/2/2012 17:24",
+		"testInconsistent1" : "eem 4/2/2012 17:24",
+		"testInconsistent2" : "eem 4/2/2012 17:25",
+		"testStay1" : "eem 4/2/2012 17:25",
+		"testTwoSolutions" : "eem 4/2/2012 17:26",
+		"testWeighted1" : "eem 4/2/2012 17:26" } }

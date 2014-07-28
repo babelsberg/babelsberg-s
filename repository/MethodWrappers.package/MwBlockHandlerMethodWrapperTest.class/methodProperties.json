@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "rhi 6/18/2001 14:32",
+		"testException" : "DF 4/19/2006 00:00",
+		"testInstallUninstall" : "DF 4/19/2006 00:00",
+		"testNoException" : "DF 4/19/2006 00:00",
+		"testOtherException" : "DF 4/19/2006 00:00",
+		"wrapperClass" : "rhi 4/7/2001 21:41" } }

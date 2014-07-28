@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "rhi 6/18/2001 14:32",
+		"testAfter" : "DF 4/19/2006 00:00",
+		"testBefore" : "DF 4/19/2006 00:00",
+		"testBeforeAfter" : "DF 4/19/2006 00:00",
+		"testBeforeAfterWithChangedArgument" : "DF 4/19/2006 00:00",
+		"testBeforeAfterWithReceiver" : "DF 4/19/2006 00:00",
+		"testBeforeAfterWithReceiverAndArgument" : "DF 4/19/2006 00:00",
+		"testInstallUninstall" : "bs 3/4/2010 16:20:57.129",
+		"wrapperClass" : "bs 3/4/2010 16:20:30.141" } }

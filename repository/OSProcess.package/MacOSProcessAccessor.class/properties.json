@@ -1,0 +1,14 @@
+{
+	"category" : "OSProcess-Mac",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MacOSProcessAccessor",
+	"pools" : [
+		 ],
+	"super" : "OSProcessAccessor",
+	"type" : "normal" }

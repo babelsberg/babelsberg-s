@@ -1,0 +1,14 @@
+{
+	"category" : "Cassowary-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClStayConstraint",
+	"pools" : [
+		 ],
+	"super" : "ClEditOrStayConstraint",
+	"type" : "normal" }

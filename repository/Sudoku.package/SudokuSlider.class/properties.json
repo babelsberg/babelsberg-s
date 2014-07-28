@@ -1,0 +1,15 @@
+{
+	"category" : "Sudoku-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sudokuSolver",
+		"maxRelativeValue" ],
+	"name" : "SudokuSlider",
+	"pools" : [
+		 ],
+	"super" : "Slider",
+	"type" : "normal" }

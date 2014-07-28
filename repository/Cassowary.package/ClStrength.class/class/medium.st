@@ -1,0 +1,4 @@
+strengths
+medium
+
+	^ MediumStrength 

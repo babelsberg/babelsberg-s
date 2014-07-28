@@ -1,0 +1,15 @@
+{
+	"category" : "Cassowary-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"constant",
+		"terms" ],
+	"name" : "ClLinearExpression",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newCassowaryVariableFor:" : "mg 5/5/2014 14:07",
+		"newConstantVariableFor:" : "mg 7/18/2014 14:04",
+		"newZ3VariableFor:" : "mg 5/13/2014 13:53",
+		"newZ3VariableFor:withName:" : "mg 5/13/2014 14:54" },
+	"instance" : {
+		"asConstantConstraintVariable" : "mg 6/19/2014 14:46",
+		"externalVariable" : "mg 4/16/2014 13:21",
+		"externalVariable:" : "mg 4/16/2014 13:21",
+		"solver" : "mg 5/5/2014 14:06",
+		"solver:" : "mg 5/5/2014 14:06",
+		"suggestValue:" : "mg 5/13/2014 10:38",
+		"value" : "mg 4/23/2014 10:14" } }

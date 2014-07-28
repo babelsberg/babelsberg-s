@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expression" : "jcg 5/4/2001 13:21",
+		"isEditConstraint" : "jcg 5/4/2001 13:21",
+		"isInequality" : "jcg 5/4/2001 13:22",
+		"isRequired" : "jcg 5/4/2001 13:22",
+		"isStayConstraint" : "jcg 5/4/2001 13:23",
+		"strength" : "jcg 5/4/2001 13:23",
+		"strength:" : "jcg 5/4/2001 13:25",
+		"weight" : "jcg 5/4/2001 13:24",
+		"weight:" : "jcg 5/4/2001 13:25" } }

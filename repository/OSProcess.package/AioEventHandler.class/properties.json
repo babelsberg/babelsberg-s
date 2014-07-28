@@ -1,0 +1,17 @@
+{
+	"category" : "OSProcess-AIO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AioPluginPresent" ],
+	"commentStamp" : "dtl 11/25/2006 15:55",
+	"instvars" : [
+		"semaphore",
+		"semaIndex",
+		"handlerProc",
+		"descriptor" ],
+	"name" : "AioEventHandler",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

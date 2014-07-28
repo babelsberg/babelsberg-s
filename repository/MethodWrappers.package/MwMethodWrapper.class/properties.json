@@ -1,0 +1,20 @@
+{
+	"category" : "MethodWrappers-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"clientMethod",
+		"clientSelector",
+		"definingClass",
+		"wrappedClass",
+		"wrappingWrapper",
+		"wasActive",
+		"installedClosestToMethod" ],
+	"name" : "MwMethodWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

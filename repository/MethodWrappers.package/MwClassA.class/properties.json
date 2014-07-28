@@ -1,0 +1,14 @@
+{
+	"category" : "MethodWrappers-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"x" ],
+	"name" : "MwClassA",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

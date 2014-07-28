@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "mg 6/19/2014 11:20",
+		"initializeCellSize:textSize:updateColor:normalColor:highlightColor:removeColor:" : "MR 2/1/2013 12:07:18.91",
+		"updateContent:ofType:" : "mg 1/10/2013 16:52:40.749" } }

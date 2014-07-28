@@ -1,0 +1,16 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expressions",
+		"exprVariables",
+		"resultExpression" ],
+	"name" : "ConstraintCountExpression",
+	"pools" : [
+		 ],
+	"super" : "ConstraintExpression",
+	"type" : "normal" }

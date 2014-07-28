@@ -1,0 +1,14 @@
+{
+	"category" : "OSProcess-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseIOHandle" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pid" ],
+	"name" : "OSProcess",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

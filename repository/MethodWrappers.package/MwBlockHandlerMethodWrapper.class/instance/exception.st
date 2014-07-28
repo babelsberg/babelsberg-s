@@ -1,0 +1,3 @@
+derived accessing
+exception
+	^ exception

@@ -1,0 +1,4 @@
+*Constraints
+isWeak
+
+	^ self == WeakStrength

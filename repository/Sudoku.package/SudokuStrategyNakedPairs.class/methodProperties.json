@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkStrategyForBoxAt:at:" : "MG 12/19/2012 12:13",
+		"checkStrategyForBoxes" : "MG 12/19/2012 12:06",
+		"checkStrategyForColumns" : "MG 12/19/2012 00:58",
+		"checkStrategyForRows" : "MG 12/19/2012 00:29",
+		"description" : "mg 12/19/2012 14:46:54.76",
+		"findCellsWithTwoPossibilitiesIn:" : "MG 12/19/2012 00:29",
+		"findHighlightCandidates" : "mg 1/17/2013 16:06:00.943",
+		"findHighlightCandidatesForBoxes" : "mg 1/17/2013 16:05:52.534",
+		"findHighlightCandidatesForColumns" : "mg 1/17/2013 15:51:24.737",
+		"findHighlightCandidatesForRows" : "mg 1/17/2013 15:45:06.721",
+		"removeCandidatesForPairs:in:" : "MG 12/19/2012 00:50",
+		"searchForPairs:" : "MG 12/19/2012 00:54",
+		"strategyName" : "MR 1/10/2013 15:26" } }

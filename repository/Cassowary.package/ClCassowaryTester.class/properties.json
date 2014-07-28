@@ -1,0 +1,14 @@
+{
+	"category" : "Cassowary-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 4/2/2012 17:32",
+	"instvars" : [
+		"haltFirst" ],
+	"name" : "ClCassowaryTester",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

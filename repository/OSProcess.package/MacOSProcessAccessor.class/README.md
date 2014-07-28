@@ -1,0 +1,1 @@
+I provide access to an operating system process, such as the process in which the Squeak VM is currently running. I am based on the Macintosh process model.

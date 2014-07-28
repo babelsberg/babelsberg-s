@@ -1,0 +1,4 @@
+accessing
+borderBottom
+
+	^ borderBottom

@@ -1,0 +1,1 @@
+Demonstrate asynchronous read handers for file streams, OS pipes, standard input, and sockets. See class category "examples". Some examples require OSProcess.

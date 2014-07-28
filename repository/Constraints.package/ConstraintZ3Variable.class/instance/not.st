@@ -1,0 +1,4 @@
+comparing
+not
+
+	^ self = false

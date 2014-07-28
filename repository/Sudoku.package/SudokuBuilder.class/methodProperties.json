@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"createBoxFromMorph:" : "MR 12/15/2012 17:12",
+		"createTableOfThreeCellsWithDirection:fromMorph:" : "MR 12/15/2012 17:28" },
+	"instance" : {
+		"buildSudoku" : "mg 2/4/2013 11:28:07.569",
+		"buildSudoku:" : "mg 2/4/2013 11:27:16.778",
+		"buildSudokuGUI" : "MR 2/2/2013 19:16:15.283",
+		"buildSudokuSolver" : "mg 2/3/2013 01:12:03.354",
+		"buildSudokuSolverStates" : "MG 12/15/2012 16:37" } }

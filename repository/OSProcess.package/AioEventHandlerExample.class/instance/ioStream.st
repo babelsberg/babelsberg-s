@@ -1,0 +1,4 @@
+accessing
+ioStream
+
+	^ ioStream

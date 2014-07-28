@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"candidates" : "MR 12/15/2012 15:04",
+		"candidates:" : "MR 12/15/2012 15:04",
+		"checkStrategyForBoxes" : "mg 12/19/2012 13:42:30.046",
+		"checkStrategyForColumns" : "mg 12/19/2012 13:42:14.894",
+		"checkStrategyForRows" : "mg 12/19/2012 13:42:01.926",
+		"description" : "mg 12/19/2012 14:48:17.668",
+		"findHighlightCandidates" : "mg 2/2/2013 15:50:55.337",
+		"findRemoveCandidates" : "mg 1/10/2013 22:29:41.24",
+		"getBoxCellsAt:at:in:" : "mg 12/19/2012 13:46:13.439",
+		"highlightCandidates" : "MR 12/15/2012 15:54",
+		"highlightCandidates:" : "MR 12/15/2012 15:55",
+		"indecesPerNumberIn:" : "mg 2/1/2013 14:34:32.987",
+		"initializeHighlightCandidates" : "mg 1/10/2013 22:53:53.085",
+		"inputMatrix" : "MG 12/15/2012 16:55",
+		"inputMatrix:" : "MG 12/15/2012 16:55",
+		"removeCandidates" : "MR 12/15/2012 15:55",
+		"removeCandidates:" : "MR 12/15/2012 15:56",
+		"solveFromCandidates:" : "mg 1/10/2013 22:41:22.205",
+		"solvedCells" : "MG 12/15/2012 16:55",
+		"solvedCells:" : "MG 12/15/2012 16:55",
+		"strategyName" : "MR 1/10/2013 15:25" } }

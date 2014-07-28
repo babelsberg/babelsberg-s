@@ -1,0 +1,4 @@
+strengths
+required
+
+	^ RequiredStrength 

@@ -1,0 +1,18 @@
+{
+	"category" : "Constraints-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"a",
+		"b",
+		"collection",
+		"arrayCollection",
+		"matrixCollection" ],
+	"name" : "ExampleClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"solver",
+		"priority",
+		"constraintBlock" ],
+	"name" : "Constraint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

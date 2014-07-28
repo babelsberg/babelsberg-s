@@ -1,0 +1,14 @@
+{
+	"category" : "Puzzles-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IrregularGridGUI",
+	"pools" : [
+		 ],
+	"super" : "SudokuGUI",
+	"type" : "normal" }

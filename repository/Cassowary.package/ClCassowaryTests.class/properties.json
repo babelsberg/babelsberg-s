@@ -1,0 +1,14 @@
+{
+	"category" : "Cassowary-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"haltFirst" ],
+	"name" : "ClCassowaryTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

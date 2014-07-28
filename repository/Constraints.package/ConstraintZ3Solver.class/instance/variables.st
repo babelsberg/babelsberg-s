@@ -1,0 +1,4 @@
+accessing
+variables
+
+	^ variables

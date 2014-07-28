@@ -1,0 +1,17 @@
+{
+	"category" : "Sudoku-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state",
+		"playForm",
+		"pauseForm",
+		"sudokuSolver" ],
+	"name" : "SudokuPlayButton",
+	"pools" : [
+		 ],
+	"super" : "IconicButton",
+	"type" : "normal" }

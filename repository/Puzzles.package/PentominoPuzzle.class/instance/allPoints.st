@@ -1,0 +1,4 @@
+accessing
+allPoints
+
+	^ allPoints

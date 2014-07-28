@@ -1,0 +1,14 @@
+{
+	"category" : "OSProcess-RiscOS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RiscOSProcessAccessor",
+	"pools" : [
+		 ],
+	"super" : "OSProcessAccessor",
+	"type" : "normal" }

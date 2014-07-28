@@ -1,0 +1,17 @@
+{
+	"category" : "Puzzles-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"borderTop",
+		"borderBottom",
+		"borderLeft",
+		"borderRight" ],
+	"name" : "IrregularGridBorderStyle",
+	"pools" : [
+		 ],
+	"super" : "SimpleBorder",
+	"type" : "normal" }

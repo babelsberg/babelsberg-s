@@ -1,0 +1,1 @@
+ClCassowaryTester is an ad-hoc collection of tests.  Better to use its rewrite, ClCassowaryTests, which is an SUnit tester.

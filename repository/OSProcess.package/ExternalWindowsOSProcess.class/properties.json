@@ -1,0 +1,19 @@
+{
+	"category" : "OSProcess-Win32",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"ppid",
+		"exitStatus",
+		"handle",
+		"threads",
+		"commandLine",
+		"pwd" ],
+	"name" : "ExternalWindowsOSProcess",
+	"pools" : [
+		 ],
+	"super" : "ExternalOSProcess",
+	"type" : "normal" }

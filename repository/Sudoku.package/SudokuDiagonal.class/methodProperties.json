@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"defaultInputFile" : "mg 7/11/2014 14:59",
+		"newConstrainedSudoku" : "mg 7/11/2014 15:00",
+		"newConstrainedSudokuFromFile:" : "mg 6/23/2014 16:45" },
+	"instance" : {
+		"createConstraints" : "mg 7/4/2014 14:20",
+		"diagonalFromTopLeftToBottomRight" : "mg 6/23/2014 16:16",
+		"diagonalFromTopRightToBottomLeft" : "mg 6/23/2014 16:25" } }

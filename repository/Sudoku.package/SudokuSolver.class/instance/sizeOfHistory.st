@@ -1,0 +1,4 @@
+accessing
+sizeOfHistory
+
+	^ candidatesHistory size

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"example1" : "tfel 7/25/2014 11:22" },
+	"instance" : {
+		"buildFullWith:" : "tfel 7/25/2014 11:04",
+		"constraintChanged" : "tfel 7/25/2014 11:03",
+		"constraintIndex" : "tfel 7/25/2014 10:58",
+		"constraintList" : "tfel 7/25/2014 10:59",
+		"constraintMenu:shifted:" : "tfel 7/25/2014 11:12",
+		"contents:notifying:" : "tfel 7/25/2014 11:02",
+		"doStep" : "tfel 7/25/2014 11:02",
+		"exploreSelectedConstraint" : "tfel 7/25/2014 11:12",
+		"process:controller:context:" : "tfel 7/25/2014 10:59",
+		"removeSelectedConstraint" : "tfel 7/25/2014 11:09",
+		"restart" : "tfel 7/25/2014 11:02",
+		"returnValue" : "tfel 7/25/2014 11:02",
+		"runUntil" : "tfel 7/25/2014 11:02",
+		"send" : "tfel 7/25/2014 11:02",
+		"setConstraintIndex:" : "tfel 7/25/2014 11:06",
+		"stepIntoBlock" : "tfel 7/25/2014 11:02",
+		"windowIsClosing" : "tfel 7/25/2014 10:41" } }

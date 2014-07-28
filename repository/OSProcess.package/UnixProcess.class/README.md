@@ -1,0 +1,1 @@
+I represent the Unix operating system process in which this Squeak session is running. I collaborate with an instance of UnixOSProcessAccessor to provide access to the external operating system. My instance variables are updated when my process accessor changes, allowing them to be monitored with a Smalltalk inspector.

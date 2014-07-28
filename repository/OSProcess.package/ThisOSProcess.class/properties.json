@@ -1,0 +1,20 @@
+{
+	"category" : "OSProcess-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ThisInstance" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"sessionID",
+		"stdIn",
+		"stdOut",
+		"stdErr",
+		"processAccessor",
+		"allMyChildren",
+		"accessProtect" ],
+	"name" : "ThisOSProcess",
+	"pools" : [
+		 ],
+	"super" : "OSProcess",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+isCassowarySolver
+
+	^ false

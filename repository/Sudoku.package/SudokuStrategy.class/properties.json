@@ -1,0 +1,18 @@
+{
+	"category" : "Sudoku-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"solvedCells",
+		"inputMatrix",
+		"candidates",
+		"highlightCandidates",
+		"removeCandidates" ],
+	"name" : "SudokuStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

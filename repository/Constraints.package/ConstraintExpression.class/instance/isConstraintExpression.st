@@ -1,0 +1,4 @@
+comparing
+isConstraintExpression
+
+	^ true

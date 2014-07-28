@@ -1,0 +1,16 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"varName",
+		"varValue",
+		"type" ],
+	"name" : "ConstraintZ3Variable",
+	"pools" : [
+		 ],
+	"super" : "ConstraintVariable",
+	"type" : "normal" }

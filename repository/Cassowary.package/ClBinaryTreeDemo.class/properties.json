@@ -1,0 +1,16 @@
+{
+	"category" : "Cassowary-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"nodes",
+		"lines",
+		"height" ],
+	"name" : "ClBinaryTreeDemo",
+	"pools" : [
+		 ],
+	"super" : "ClDemoWindow",
+	"type" : "normal" }

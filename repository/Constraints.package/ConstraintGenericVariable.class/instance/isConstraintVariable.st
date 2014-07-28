@@ -1,0 +1,4 @@
+accessing
+isConstraintVariable
+
+	^ true

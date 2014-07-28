@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkStrategyForBoxes" : "mg 1/10/2013 14:35:23.891",
+		"checkStrategyForColumns" : "mg 1/10/2013 14:38:50.139",
+		"checkStrategyForRows" : "mg 1/10/2013 14:28:35.157",
+		"description" : "mg 12/19/2012 14:47:08.384",
+		"number:hasOnePossibilityIn:" : "mg 12/19/2012 14:00:37.973",
+		"removeCandidatesInCell:hiddenSingle:" : "mg 12/19/2012 14:01:01.119",
+		"strategyName" : "MR 1/10/2013 15:26" } }

@@ -1,0 +1,4 @@
+strengths
+weak
+
+	^ WeakStrength 

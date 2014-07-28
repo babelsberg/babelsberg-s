@@ -1,0 +1,1 @@
+I represent an OSProcess other than the process in which this Squeak is executing. I maintain information about the state of the external process during and after the lifetime of the process.

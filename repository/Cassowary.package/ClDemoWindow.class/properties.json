@@ -1,0 +1,26 @@
+{
+	"category" : "Cassowary-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"shell",
+		"main",
+		"form",
+		"da",
+		"gc",
+		"gcw",
+		"buffer",
+		"grabPoint",
+		"dragPoint",
+		"cs",
+		"errorPixel",
+		"editX",
+		"editY" ],
+	"name" : "ClDemoWindow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

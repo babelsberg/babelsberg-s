@@ -1,0 +1,24 @@
+{
+	"category" : "Sudoku-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid",
+		"numbers",
+		"hintButton",
+		"takeStepButton",
+		"playButton",
+		"pauseButton",
+		"buttonWrapper",
+		"strategyDisplay",
+		"layoutWrapper",
+		"slider",
+		"sudokuCellDict" ],
+	"name" : "SudokuGUI",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+converting
+asBufferedAsyncFileReadStream
+
+	^ self

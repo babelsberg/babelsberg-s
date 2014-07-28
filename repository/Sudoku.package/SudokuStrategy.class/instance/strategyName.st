@@ -1,0 +1,3 @@
+naming
+strategyName
+	self subclassResponsibility.

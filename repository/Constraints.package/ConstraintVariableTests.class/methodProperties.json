@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mg 7/28/2014 15:53",
+		"testCassowaryVariableEqualityOperatorConstants" : "mg 7/28/2014 15:53",
+		"testCassowaryVariableEqualityOperatorConstants2" : "mg 7/28/2014 15:53",
+		"testCassowaryVariableEqualityOperatorNilVariables" : "mg 7/28/2014 15:54",
+		"testCassowaryVariableEqualityOperatorOneVariable" : "mg 7/28/2014 15:54",
+		"testCassowaryVariableEqualityOperatorOneVariable2" : "mg 7/28/2014 15:54",
+		"testCassowaryVariableEqualityOperatorOneVariable3" : "mg 7/28/2014 15:54",
+		"testCassowaryVariableEqualityOperatorTwoVariables" : "mg 7/28/2014 15:54",
+		"testCassowaryVariableEqualityOperatorTwoVariables2" : "mg 7/28/2014 15:54",
+		"testZ3RemoveStay" : "mg 7/28/2014 15:54",
+		"testZ3Stay" : "mg 7/28/2014 15:54",
+		"testZ3VariablePrintDeclaration" : "mg 7/28/2014 15:54",
+		"testZ3WeakStay" : "mg 7/28/2014 15:54" } }

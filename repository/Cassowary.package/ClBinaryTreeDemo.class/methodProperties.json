@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"height:" : "jcg 5/8/2001 08:30" },
+	"instance" : {
+		"childrenAndParentsDo:" : "jcg 5/8/2001 08:32",
+		"constraintPointsDo:" : "jcg 5/8/2001 08:33",
+		"createConstraints" : "jcg 5/8/2001 23:33",
+		"drawForegroundOn:" : "jcg 5/8/2001 23:39",
+		"height:" : "jcg 5/8/2001 23:28",
+		"initialExtent" : "jcg 5/8/2001 23:30",
+		"initialize" : "jcg 5/8/2001 23:28",
+		"inset" : "jcg 5/8/2001 23:30",
+		"spacing" : "jcg 5/8/2001 23:31",
+		"veryDeepFixupWith:" : "jcg 6/29/2001 13:36" } }

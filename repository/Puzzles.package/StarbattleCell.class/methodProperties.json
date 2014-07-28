@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addImageMorph" : "mg 7/4/2014 10:44",
+		"buildMinusForm" : "mg 7/11/2014 16:05",
+		"buildStarForm" : "mg 7/11/2014 16:05",
+		"handlesMouseDown:" : "mg 6/30/2014 17:50",
+		"initialize" : "mg 7/11/2014 16:06",
+		"mouseDown:" : "mg 7/4/2014 10:37" } }

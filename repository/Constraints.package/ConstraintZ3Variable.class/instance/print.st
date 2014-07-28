@@ -1,0 +1,4 @@
+printing
+print
+
+	^ self varName

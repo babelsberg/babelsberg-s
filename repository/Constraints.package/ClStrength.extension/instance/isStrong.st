@@ -1,0 +1,4 @@
+*Constraints
+isStrong
+
+	^ self == StrongStrength

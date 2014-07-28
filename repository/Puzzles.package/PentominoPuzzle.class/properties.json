@@ -1,0 +1,19 @@
+{
+	"category" : "Puzzles-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PentominoDeltaDict" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"allPoints",
+		"pentominoNames",
+		"pentominoStartingPoints",
+		"solver",
+		"rowCount",
+		"columnCount" ],
+	"name" : "PentominoPuzzle",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCanWrapInClass" : "md 10/14/2004 18:58",
+		"testChainRemoveLastFirst" : "DF 4/19/2006 00:00",
+		"testChainRemoveLastFirstHierarchy" : "bs 10/16/2009 09:28",
+		"testChainRemoveMiddleFirst" : "DF 4/19/2006 00:00",
+		"testChainRemoveMiddleFirstHierarchy" : "bs 10/16/2009 09:28",
+		"testCodeString0" : "tfel 3/7/2012 16:05:23.635",
+		"testCodeString1" : "tfel 3/7/2012 16:05:15.46",
+		"testCodeString2" : "tfel 3/7/2012 16:05:34.046",
+		"testDefiningWrappedDifferent" : "DF 4/19/2006 00:00",
+		"testDefiningWrappedSame" : "DF 4/19/2006 00:00",
+		"testDefiningWrappedSame2" : "DF 4/19/2006 00:00",
+		"testDefiningWrappedSame3" : "DF 4/19/2006 00:00",
+		"testDefiningWrappedSame4" : "DF 4/19/2006 00:00",
+		"testInstallInstantiateUninstall" : "DF 4/19/2006 00:00",
+		"testInstallUninstall" : "DF 4/19/2006 00:00",
+		"testInstantiateInstallUninstall" : "DF 4/19/2006 00:00",
+		"testOnInClass" : "bs 3/4/2010 16:09:51.971",
+		"testProperties" : "bs 3/4/2010 16:10:33.9",
+		"testWasActive" : "DF 4/19/2006 00:00",
+		"wrapperClass" : "rhi 3/29/2001 20:50" } }

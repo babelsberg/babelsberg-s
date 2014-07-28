@@ -1,0 +1,14 @@
+{
+	"category" : "OSProcess-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 3/7/2005 21:57",
+	"instvars" : [
+		"fileStream" ],
+	"name" : "UnixProcessFileLockTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

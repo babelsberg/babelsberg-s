@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"finished:" : "mg 2/3/2013 12:11:55.052",
+		"isValid:" : "mg 2/3/2013 01:55:48.729" },
+	"instance" : {
+		"checkConstraintForBoxAt:at:" : "mg 12/19/2012 14:43:49.708",
+		"checkStrategyForBoxes" : "mg 12/19/2012 13:34:38.321",
+		"checkStrategyForColumns" : "mg 12/19/2012 14:43:49.623",
+		"checkStrategyForRows" : "mg 12/19/2012 14:43:49.8",
+		"collectAssignedNumbers:" : "MG 11/24/2012 15:22",
+		"description" : "mg 2/2/2013 20:26:27.583",
+		"findHighlightCandidates" : "mg 1/10/2013 21:11:18.959",
+		"findHighlightCandidatesForBoxes" : "mg 1/10/2013 22:52:27.998",
+		"findHighlightCandidatesForColumns" : "mg 1/10/2013 17:26:45.353",
+		"findHighlightCandidatesForRows" : "mg 1/10/2013 17:24:20.268",
+		"removeAssignedNumbers:from:" : "mg 12/19/2012 14:43:49.54",
+		"strategyName" : "mg 2/2/2013 20:26:13.912" } }

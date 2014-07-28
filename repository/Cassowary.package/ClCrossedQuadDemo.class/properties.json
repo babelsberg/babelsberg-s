@@ -1,0 +1,22 @@
+{
+	"category" : "Cassowary-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"p1",
+		"p2",
+		"p3",
+		"p4",
+		"m1",
+		"m2",
+		"m3",
+		"m4",
+		"center" ],
+	"name" : "ClCrossedQuadDemo",
+	"pools" : [
+		 ],
+	"super" : "ClDemoWindow",
+	"type" : "normal" }

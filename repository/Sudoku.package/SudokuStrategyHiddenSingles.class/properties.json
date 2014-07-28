@@ -1,0 +1,14 @@
+{
+	"category" : "Sudoku-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SudokuStrategyHiddenSingles",
+	"pools" : [
+		 ],
+	"super" : "SudokuStrategy",
+	"type" : "normal" }

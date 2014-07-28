@@ -1,0 +1,3 @@
+naming
+description
+	^ 'Check rules'

@@ -1,0 +1,15 @@
+{
+	"category" : "Puzzles-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"x",
+		"y" ],
+	"name" : "PuzzlePoint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Cassowary-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

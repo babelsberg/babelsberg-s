@@ -1,0 +1,4 @@
+*OSProcess-Base
+isPipe
+
+	^ false

@@ -1,0 +1,14 @@
+{
+	"category" : "OSProcess-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"thisOSProcess" ],
+	"name" : "UnixProcessTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

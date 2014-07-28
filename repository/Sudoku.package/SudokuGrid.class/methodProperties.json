@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"boxIndexDict" : "mg 7/4/2014 15:19",
+		"boxIndexFromCellIndex:" : "mg 2/2/2013 17:05:27.422",
+		"boxNumberFromIndex:" : "mg 2/2/2013 16:13:35.687",
+		"buildFromString:" : "mg 7/11/2014 15:10",
+		"defaultInputFile" : "mg 7/11/2014 14:49",
+		"getCandidatesMatrixFrom:" : "mg 5/28/2014 13:14",
+		"indexOfbox:cell:" : "mg 1/10/2013 22:47:16.215",
+		"missingLineNumbersInBoxForLine:" : "mg 2/2/2013 23:39:40.476",
+		"newConstrainedSudoku" : "mg 7/11/2014 14:53",
+		"newConstrainedSudokuFromFile:" : "mg 7/4/2014 14:39",
+		"newFrom:" : "mg 6/10/2014 15:46",
+		"newFromFile:" : "mg 7/28/2014 15:27",
+		"topLeftCellOfBox:" : "mg 5/28/2014 12:59" },
+	"instance" : {
+		"addConstraintsForAllGivenNumbers" : "mg 6/23/2014 14:24",
+		"atBox:" : "mg 6/23/2014 14:24",
+		"boxCount" : "mg 1/10/2013 22:39:32.542",
+		"createConstraintAt:at:with:" : "mg 6/23/2014 14:27",
+		"createConstraints" : "mg 7/22/2014 15:59",
+		"disableEqualityConstraintAt:at:" : "mg 6/23/2014 14:27",
+		"initialize" : "mg 6/23/2014 13:51",
+		"sudokuGui" : "mg 6/10/2014 13:36",
+		"sudokuGui:" : "mg 6/10/2014 13:36" } }

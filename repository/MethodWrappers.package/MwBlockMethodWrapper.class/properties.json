@@ -1,0 +1,15 @@
+{
+	"category" : "MethodWrappers-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"beforeBlock",
+		"afterBlock" ],
+	"name" : "MwBlockMethodWrapper",
+	"pools" : [
+		 ],
+	"super" : "MwMethodWrapper",
+	"type" : "normal" }

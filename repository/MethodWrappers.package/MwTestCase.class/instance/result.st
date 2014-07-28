@@ -1,0 +1,5 @@
+accessing
+result
+	"^ <Integer>"
+
+	^ result

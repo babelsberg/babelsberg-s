@@ -1,0 +1,16 @@
+{
+	"category" : "Puzzles-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"irregularPuzzleGui",
+		"regions",
+		"equalityConstraints" ],
+	"name" : "IrregularGrid",
+	"pools" : [
+		 ],
+	"super" : "LatinSquareGrid",
+	"type" : "normal" }

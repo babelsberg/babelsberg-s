@@ -1,0 +1,16 @@
+{
+	"category" : "Puzzles-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"imageMorph",
+		"starForm",
+		"minusForm" ],
+	"name" : "StarbattleCell",
+	"pools" : [
+		 ],
+	"super" : "IrregularCell",
+	"type" : "normal" }

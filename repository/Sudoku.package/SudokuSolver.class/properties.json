@@ -1,0 +1,22 @@
+{
+	"category" : "Sudoku-Calculation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"strategies",
+		"currentStrategy",
+		"currentState",
+		"allStates",
+		"strategyDisplay",
+		"candidatesHistory",
+		"historyPosition",
+		"historySlider",
+		"fileName" ],
+	"name" : "SudokuSolver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

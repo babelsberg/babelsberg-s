@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handlesKeyboard:" : "mg 6/18/2014 12:50",
+		"handlesMouseOver:" : "mg 6/18/2014 12:50",
+		"highlightColor" : "MG 12/15/2012 14:52",
+		"highlightColor:" : "MG 12/15/2012 14:52",
+		"initialize" : "mg 6/19/2014 11:19",
+		"keyStroke:" : "mg 6/23/2014 14:38",
+		"mouseEnter:" : "mg 6/18/2014 13:38",
+		"normalColor" : "MR 12/9/2012 23:58",
+		"normalColor:" : "MR 12/9/2012 23:59",
+		"removeCandidatesColor" : "MG 12/15/2012 16:45",
+		"removeCandidatesColor:" : "MG 12/15/2012 16:45",
+		"setToHighlightColor" : "MR 2/1/2013 23:22:19.621",
+		"setToNormalColor" : "MR 12/9/2012 23:58",
+		"setToRemoveCandidatesColor" : "MR 2/1/2013 12:07:00.193",
+		"setToUpdateColor" : "MR 12/9/2012 23:57",
+		"setToWhiteBackground" : "MR 2/1/2013 23:25:18.651",
+		"updateColor" : "MR 12/9/2012 23:58",
+		"updateColor:" : "MR 12/9/2012 23:59",
+		"updateTextWith:" : "MG 12/14/2012 15:48" } }

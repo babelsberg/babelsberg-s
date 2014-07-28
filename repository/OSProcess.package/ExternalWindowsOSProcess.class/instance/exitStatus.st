@@ -1,0 +1,4 @@
+accessing
+exitStatus
+
+	^ exitStatus

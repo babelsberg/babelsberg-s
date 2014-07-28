@@ -1,0 +1,3 @@
+naming
+strategyName
+	^ 'Hidden Singles'

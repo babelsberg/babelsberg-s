@@ -1,0 +1,4 @@
+*Cassowary
+isSymbolicWeight
+
+	^ false

@@ -1,0 +1,4 @@
+accessing
+asLinearExpression
+
+	^ self

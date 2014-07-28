@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addAdditionalConstraints" : "jcg 5/9/2001 08:26",
+		"constraintPointsDo:" : "jcg 5/9/2001 08:29",
+		"drawForegroundOn:" : "jcg 5/9/2001 08:29",
+		"initialize" : "jcg 5/9/2001 08:27",
+		"veryDeepFixupWith:" : "jcg 6/29/2001 13:37" } }

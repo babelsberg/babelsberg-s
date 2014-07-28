@@ -1,0 +1,16 @@
+{
+	"category" : "Puzzles-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sudokuModel",
+		"xCoord",
+		"yCoord" ],
+	"name" : "IrregularCell",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

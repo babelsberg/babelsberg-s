@@ -1,0 +1,4 @@
+accessing
+pentominoNames
+
+	^ pentominoNames

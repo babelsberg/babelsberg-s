@@ -1,0 +1,4 @@
+accessing
+isRequired
+
+	^ self == RequiredStrength

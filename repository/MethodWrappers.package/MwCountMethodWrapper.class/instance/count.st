@@ -1,0 +1,4 @@
+derived accessing
+count
+
+	^ count

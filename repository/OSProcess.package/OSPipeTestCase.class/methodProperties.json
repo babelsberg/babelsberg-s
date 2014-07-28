@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"primTestEndOfFileFlag:" : "dtl 11/28/2010 14:05",
+		"readFromAndClose:writingTo:" : "dtl 6/4/2006 16:03",
+		"testBlocking" : "dtl 4/12/2014 16:07",
+		"testBlockingBufferedPipe" : "dtl 4/2/2006 21:38",
+		"testBlockingPeek" : "dtl 4/12/2014 16:09",
+		"testBlockingPeekBufferedPipe" : "dtl 4/2/2006 21:39",
+		"testBufferedUpToEnd" : "dtl 5/17/2006 23:36",
+		"testIsAtEndOfFile" : "dtl 4/24/2012 19:24",
+		"testIsAtEndOfFile2" : "dtl 4/8/2007 10:15",
+		"testNonBlocking" : "dtl 3/25/2006 13:44",
+		"testNonBlockingBufferedPipe" : "dtl 4/2/2006 21:40",
+		"testNonBlockingPeek" : "dtl 3/25/2006 13:50",
+		"testNonBlockingPeekBufferedPipe" : "dtl 4/2/2006 21:41",
+		"writeStuffOnThenClose:" : "dtl 3/25/2006 18:29" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "MethodWrappers-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"time" ],
+	"name" : "MwTimeMethodWrapper",
+	"pools" : [
+		 ],
+	"super" : "MwCountMethodWrapper",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"buildFromString:" : "mg 7/11/2014 15:05",
+		"defaultInputFile" : "mg 7/11/2014 15:02",
+		"newFromFile:" : "mg 7/11/2014 15:07" },
+	"instance" : {
+		"bottomSums" : "mg 6/24/2014 15:31",
+		"createConstraints" : "mg 7/4/2014 14:28",
+		"createSumConstraints" : "mg 6/24/2014 16:30",
+		"firstThreeCellsFrom:direction:" : "mg 6/24/2014 16:11",
+		"initialize" : "mg 6/24/2014 15:35",
+		"leftSums" : "mg 6/24/2014 15:31",
+		"rightSums" : "mg 6/24/2014 15:31",
+		"topSums" : "mg 6/24/2014 15:31" } }

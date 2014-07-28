@@ -1,0 +1,14 @@
+{
+	"category" : "Cassowary-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClLinearInequality",
+	"pools" : [
+		 ],
+	"super" : "ClLinearConstraint",
+	"type" : "normal" }

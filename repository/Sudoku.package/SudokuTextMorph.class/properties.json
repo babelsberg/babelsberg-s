@@ -1,0 +1,17 @@
+{
+	"category" : "Sudoku-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"highlightColor",
+		"removeCandidatesColor",
+		"updateColor",
+		"normalColor" ],
+	"name" : "SudokuTextMorph",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }

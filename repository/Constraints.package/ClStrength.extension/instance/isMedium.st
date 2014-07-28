@@ -1,0 +1,4 @@
+*Constraints
+isMedium
+
+	^ self == MediumStrength

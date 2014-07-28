@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"onFile:from:to:exclusive:" : "dtl 2/22/2004 13:58",
+		"onFile:interval:exclusive:" : "dtl 2/22/2004 13:59" },
+	"instance" : {
+		"=" : "jf 2/22/2004 18:33",
+		"hash" : "jf 2/22/2004 18:33",
+		"interval" : "dtl 3/10/2005 20:23",
+		"interval:" : "dtl 3/10/2005 20:23",
+		"length" : "jf 2/22/2004 18:02",
+		"offset" : "jf 2/22/2004 18:02",
+		"onFile:interval:exclusive:" : "jf 2/22/2004 16:03",
+		"overlaps:" : "jf 2/22/2004 19:47",
+		"overlapsRegion:" : "jf 2/22/2004 18:56" } }

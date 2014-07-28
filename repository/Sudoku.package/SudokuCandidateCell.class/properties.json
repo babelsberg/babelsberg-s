@@ -1,0 +1,14 @@
+{
+	"category" : "Sudoku-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SudokuCandidateCell",
+	"pools" : [
+		 ],
+	"super" : "SudokuCell",
+	"type" : "normal" }

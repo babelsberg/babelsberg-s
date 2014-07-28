@@ -1,0 +1,14 @@
+{
+	"category" : "Puzzles-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StarbattleGridGUI",
+	"pools" : [
+		 ],
+	"super" : "IrregularGridGUI",
+	"type" : "normal" }

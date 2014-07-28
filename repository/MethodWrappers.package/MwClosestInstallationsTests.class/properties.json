@@ -1,0 +1,14 @@
+{
+	"category" : "MethodWrappers-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MwClosestInstallationsTests",
+	"pools" : [
+		 ],
+	"super" : "MwTestCase",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Sudoku-Calculation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emptyCell",
+		"sudokuSolver",
+		"sudokuGUI" ],
+	"name" : "SudokuSolverState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

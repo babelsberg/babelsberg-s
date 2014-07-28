@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allStates:" : "MG 12/14/2012 14:32",
+		"applyStrategy" : "MR 2/2/2013 15:59:29.137",
+		"applyStrategyForCandidates:" : "MR 2/2/2013 17:20:34.027",
+		"calculationInHistoryMode" : "MR 2/2/2013 19:55:04.593",
+		"calculationInNormalMode" : "MR 2/2/2013 20:01:39.001",
+		"candidates" : "MR 2/2/2013 18:36:51.906",
+		"candidatesFromStrategy" : "MR 2/2/2013 16:48:53.124",
+		"currentState" : "MR 12/22/2012 18:26",
+		"currentState:" : "MR 12/22/2012 18:26",
+		"fileName:" : "mg 2/4/2013 11:26:25.311",
+		"highlightCandidates" : "MG 12/15/2012 15:14",
+		"historySlider:" : "MR 2/2/2013 19:02:10.632",
+		"inHistoryMode" : "MR 2/2/2013 20:00:05.41",
+		"initialCandidates" : "mg 2/4/2013 11:29:28.701",
+		"initialize" : "MR 2/2/2013 18:37:34.871",
+		"numbers" : "MG 12/15/2012 15:48",
+		"removeCandidates" : "MG 12/15/2012 16:17",
+		"sizeOfHistory" : "MR 2/2/2013 17:39:32.703",
+		"storeCandidates" : "MR 2/2/2013 16:59:07.929",
+		"strategies:" : "MR 1/10/2013 15:02",
+		"strategyDisplay:" : "mg 1/10/2013 21:15:48.455",
+		"takeStep" : "MR 2/2/2013 20:02:34.133",
+		"takeStepFromHistoryAt:" : "MR 2/2/2013 18:35:07.622",
+		"updateState" : "MR 2/2/2013 16:19:14.346" } }

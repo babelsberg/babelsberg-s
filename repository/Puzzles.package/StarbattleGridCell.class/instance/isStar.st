@@ -1,0 +1,4 @@
+accessing
+isStar
+
+	^ isStar

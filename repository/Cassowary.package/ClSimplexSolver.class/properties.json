@@ -1,0 +1,28 @@
+{
+	"category" : "Cassowary-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Epsilon" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rows",
+		"columns",
+		"objective",
+		"infeasibleRows",
+		"stayPlusErrorVars",
+		"stayMinusErrorVars",
+		"editVars",
+		"editConstraints",
+		"editPlusErrorVars",
+		"editMinusErrorVars",
+		"prevEditConstants",
+		"newEditConstants",
+		"markerVars",
+		"errorVars",
+		"autoSolve" ],
+	"name" : "ClSimplexSolver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"allRotationsOfPentomino:" : "mg 7/22/2014 16:17",
+		"newConstrainedPuzzle" : "mg 7/28/2014 14:57",
+		"newConstrainedPuzzleRotated" : "mg 7/28/2014 14:57",
+		"newConstrainedPuzzleWithPentominoes:size:" : "mg 7/28/2014 14:58",
+		"newWithPentominoes:size:" : "mg 7/23/2014 11:27",
+		"pentominoDeltaDict" : "mg 7/22/2014 15:38" },
+	"instance" : {
+		"allPoints" : "mg 7/22/2014 11:37",
+		"allPoints:" : "mg 7/22/2014 11:37",
+		"containsPentomino:" : "mg 7/22/2014 15:38",
+		"containsPentominoRotated:" : "mg 7/22/2014 16:26",
+		"createConstraints" : "mg 7/23/2014 11:15",
+		"createConstraintsRotated" : "mg 7/23/2014 11:17",
+		"initialize" : "mg 7/22/2014 11:40",
+		"pentominoNames" : "mg 7/22/2014 11:37",
+		"pentominoNames:" : "mg 7/22/2014 11:37",
+		"pentominoStartingPoints" : "mg 7/22/2014 11:37",
+		"pentominoStartingPoints:" : "mg 7/22/2014 11:37",
+		"prettyDraw" : "tfel 7/24/2014 14:42",
+		"prettyPrint" : "mg 7/22/2014 15:46",
+		"solver" : "mg 7/22/2014 15:43",
+		"solver:" : "mg 7/22/2014 15:43" } }

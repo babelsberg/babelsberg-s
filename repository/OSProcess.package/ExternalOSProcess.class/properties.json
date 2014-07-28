@@ -1,0 +1,17 @@
+{
+	"category" : "OSProcess-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"runState",
+		"initialStdIn",
+		"initialStdOut",
+		"initialStdErr" ],
+	"name" : "ExternalOSProcess",
+	"pools" : [
+		 ],
+	"super" : "OSProcess",
+	"type" : "normal" }

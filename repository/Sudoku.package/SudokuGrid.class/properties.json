@@ -1,0 +1,16 @@
+{
+	"category" : "Sudoku-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BoxIndexDict" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sudokuGui",
+		"solver",
+		"equalityConstraints" ],
+	"name" : "SudokuGrid",
+	"pools" : [
+		 ],
+	"super" : "Matrix",
+	"type" : "normal" }

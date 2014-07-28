@@ -1,0 +1,14 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mg 5/14/2014 12:36",
+	"instvars" : [
+		"externalExpression" ],
+	"name" : "ConstraintLinearExpression",
+	"pools" : [
+		 ],
+	"super" : "ConstraintExpression",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Sudoku-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SudokuDiagonal",
+	"pools" : [
+		 ],
+	"super" : "SudokuGrid",
+	"type" : "normal" }

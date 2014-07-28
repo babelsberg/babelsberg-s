@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"isAbstract" : "dtl 1/13/2007 15:40" },
+	"instance" : {
+		"isValidUnlockResult:" : "dtl 5/13/2006 09:38",
+		"setUp" : "dtl 4/30/2006 14:05",
+		"testLockPreviouslyLockedFile" : "dtl 5/11/2006 07:12",
+		"testLockPreviouslyLockedFileRegion" : "dtl 5/11/2006 07:12",
+		"testUnlockPreviouslyLockedFile" : "dtl 5/11/2006 07:07",
+		"testUnlockPreviouslyLockedFileRegion" : "dtl 5/11/2006 07:07" } }

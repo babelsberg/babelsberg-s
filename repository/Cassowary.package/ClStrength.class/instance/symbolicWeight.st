@@ -1,0 +1,4 @@
+accessing
+symbolicWeight
+
+	^ symbolicWeight

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addDelete1" : "jcg 5/7/2001 19:55",
+		"addDelete2" : "jcg 5/7/2001 21:20",
+		"addDelete3" : "jcg 5/7/2001 21:23",
+		"edit1" : "jcg 5/7/2001 21:23",
+		"haltFirst:" : "jcg 5/7/2001 19:57",
+		"inconsistent1" : "jcg 5/8/2001 07:52",
+		"inconsistent2" : "jcg 5/8/2001 07:52",
+		"initialize" : "jcg 7/4/2008 10:22",
+		"stay1" : "jcg 5/7/2001 20:07",
+		"twoSolutions" : "jcg 5/7/2001 20:07",
+		"weighted1" : "jcg 5/7/2001 20:08" } }

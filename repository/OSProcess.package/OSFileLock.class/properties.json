@@ -1,0 +1,15 @@
+{
+	"category" : "OSProcess-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 2/23/2004 19:36",
+	"instvars" : [
+		"fileStream",
+		"exclusive" ],
+	"name" : "OSFileLock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

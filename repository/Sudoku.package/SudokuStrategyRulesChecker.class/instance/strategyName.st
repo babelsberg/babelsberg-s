@@ -1,0 +1,3 @@
+naming
+strategyName
+	^ 'Check rules'

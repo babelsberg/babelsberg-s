@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"canWrap:inClass:" : "rhi 3/27/2001 09:58",
+		"initialize" : "rhi 3/30/2001 14:55",
+		"installOn:" : "DF 4/19/2006 00:00",
+		"installOnObject:" : "DF 4/19/2006 00:00",
+		"synchronize" : "rhi 3/27/2001 09:49",
+		"uninstallOn:" : "DF 4/19/2006 00:00",
+		"uninstallOnObject:" : "rhi 3/27/2001 09:47",
+		"unsynchronize" : "rhi 3/30/2001 15:36" },
+	"instance" : {
+		"afterMethod" : "rhi 3/30/2001 19:09",
+		"beforeMethod" : "rhi 3/30/2001 19:09",
+		"recursionLock" : "bs 3/4/2010 16:37",
+		"recursionLock:" : "bs 3/4/2010 16:37",
+		"valueWithReceiver:arguments:" : "rhi 3/30/2001 17:36" } }

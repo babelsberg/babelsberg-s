@@ -1,0 +1,14 @@
+{
+	"category" : "Constraints-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"constraintIndex" ],
+	"name" : "ConstraintDebugger",
+	"pools" : [
+		 ],
+	"super" : "Debugger",
+	"type" : "normal" }

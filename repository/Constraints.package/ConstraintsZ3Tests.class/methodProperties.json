@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBetweenAnd" : "mg 6/17/2014 15:43",
+		"testBoolConstraint" : "mg 5/14/2014 10:40",
+		"testBoolVariable" : "mg 7/8/2014 15:13",
+		"testComplexConjunctionWithAnd" : "mg 5/26/2014 10:35",
+		"testComplexConjunctionWithAnd2" : "mg 5/26/2014 10:36",
+		"testComplexExpressionWithMultiplication" : "mg 5/13/2014 15:30",
+		"testComplexInequalityConstraints" : "mg 5/26/2014 11:49",
+		"testComplexInequalityConstraintsWithExpressions" : "mg 5/26/2014 11:56",
+		"testComplexLinearExpressionWithDivision" : "mg 5/26/2014 10:37",
+		"testConjunctionChain" : "mg 5/26/2014 10:54",
+		"testConjunctionError" : "mg 5/26/2014 10:56",
+		"testConjunctionOfInequalities" : "mg 5/27/2014 16:01",
+		"testConjunctionWithAnd" : "mg 5/26/2014 10:57",
+		"testConstraintObject" : "mg 5/26/2014 10:59",
+		"testConstraintObjectInterface" : "mg 5/26/2014 11:14",
+		"testCosine" : "mg 5/26/2014 16:38",
+		"testEqualityOfTwoVariables" : "mg 5/13/2014 15:20",
+		"testInequality" : "mg 5/26/2014 15:44",
+		"testInstancevariableClass" : "mg 5/26/2014 11:16",
+		"testNoConstraintInBlock" : "mg 5/26/2014 11:26",
+		"testNotExpression" : "mg 7/8/2014 15:15",
+		"testPower" : "mg 5/26/2014 16:42",
+		"testSimpleEqualityConstraint" : "mg 5/13/2014 15:29",
+		"testSine" : "mg 5/26/2014 16:41" } }

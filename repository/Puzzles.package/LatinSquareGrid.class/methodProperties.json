@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createConstraints" : "mg 7/21/2014 14:09",
+		"endlessBorderAt:at:" : "mg 7/21/2014 14:09",
+		"initialize" : "mg 7/21/2014 14:08",
+		"mooreNeighborsOfX:y:" : "mg 7/21/2014 14:10",
+		"vonNeumannNeighborsOfX:y:" : "mg 7/21/2014 14:31" } }

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"initialize" : "jcg 5/7/2001 18:29",
+		"medium" : "jcg 5/7/2001 16:56",
+		"nLevels" : "jcg 5/7/2001 16:56",
+		"required" : "jcg 5/7/2001 16:56",
+		"strengthsDo:" : "jcg 5/7/2001 16:57",
+		"strong" : "jcg 5/7/2001 16:57",
+		"weak" : "jcg 5/7/2001 16:58" },
+	"instance" : {
+		"isRequired" : "jcg 5/7/2001 17:00",
+		"name" : "jcg 5/7/2001 17:02",
+		"name:" : "jcg 5/7/2001 17:02",
+		"printOn:" : "jcg 5/7/2001 17:00",
+		"symbolicWeight" : "jcg 5/7/2001 17:02",
+		"symbolicWeight:" : "jcg 5/7/2001 17:03" } }

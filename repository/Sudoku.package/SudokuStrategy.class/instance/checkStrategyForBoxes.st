@@ -1,0 +1,3 @@
+solving
+checkStrategyForBoxes
+	self subclassResponsibility.

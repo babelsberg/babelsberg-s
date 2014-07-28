@@ -1,0 +1,15 @@
+{
+	"category" : "OSProcess-Unix",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ThisProcessPid" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"grimReaper",
+		"sigChldSemaphore" ],
+	"name" : "UnixOSProcessAccessor",
+	"pools" : [
+		 ],
+	"super" : "OSProcessAccessor",
+	"type" : "normal" }

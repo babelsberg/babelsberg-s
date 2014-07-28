@@ -1,0 +1,17 @@
+{
+	"category" : "Sudoku-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topSums",
+		"bottomSums",
+		"leftSums",
+		"rightSums" ],
+	"name" : "SudokuOutsideSum",
+	"pools" : [
+		 ],
+	"super" : "SudokuGrid",
+	"type" : "normal" }

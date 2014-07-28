@@ -1,0 +1,4 @@
+*Constraints
+isConstraintExpression
+
+	^ false

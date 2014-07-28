@@ -1,0 +1,4 @@
+accessing
+stdOut
+
+	^ stdOut
