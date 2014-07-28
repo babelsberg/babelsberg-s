@@ -16,8 +16,10 @@ baseline: spec
 		spec package: 'OSProcess' with: [
 			spec repository: 'http://www.squeaksource.com/OSProcess'].
 
+		spec package: 'MethodWrappers' with: [
+			spec repository: 'http://hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'].
+
 		spec package: 'Cassowary'.
-		spec package: 'MethodWrappers'.
 		spec package: 'Sudoku' with: [spec requires: #('Widgets')].
 		spec package: 'Puzzles' with: [spec requires: #('Sudoku')].
 		spec package: 'Constraints' with: [
