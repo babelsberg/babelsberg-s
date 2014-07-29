@@ -11,11 +11,19 @@ Work in progress.
 ##How to Install
 
 1. Get [Squeak 4.4 or later](http://www.squeak.org) with a recent [CogVM](http://www.mirandabanda.org/files/Cog/VM/) for your operating system.
-2. If not already integrated, load [Metacello](https://github.com/dalehenrich/metacello-work). Learn how it [works](https://github.com/dalehenrich/metacello-work/blob/master/docs/MetacelloUserGuide.md).
-3. Finally, load Babelsberg/S into your image
+2. Load Babelsberg/S into your image
 
 ```Smalltalk
-Metacello new
+"Get the Metacello configuration (for Squeak users)"
+Installer swasource
+  project: 'SwaUtilities';
+  addPackage: 'ConfigurationOfMetacello';
+  install.
+
+"Bootstrap Metacello Preview, using mcz files (#'previewBootstrap' symbolic version"
+((Smalltalk at: #ConfigurationOfMetacello) project version: #'previewBootstrap') load.
+
+(Smalltalk at: #Metacello) new
   baseline: 'BabelsbergS';
   repository: 'github://timfel/babelsberg-s/repository';
   load.
