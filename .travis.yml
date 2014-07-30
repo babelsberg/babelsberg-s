@@ -1,0 +1,34 @@
+language: erlang
+
+
+env:
+  matrix:
+    - ST=Pharo-1.4
+    - ST=Squeak-4.3
+    - ST=Squeak-4.4
+
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - env: ST=Pharo-1.4
+
+
+install:
+   - export PROJECT_HOME="$(pwd)"
+   - cd $HOME
+   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
+   - unzip -q builderCI.zip
+   - cd dalehenrich-builderCI*
+   - source build_env_vars
+   - ln -s $PROJECT_HOME $GIT_PATH
+   - cd $IMAGE_PATH
+   - wget -q -O z3.zip https://z3.codeplex.com/downloads/get/623724
+   - unzip -q z3.zip
+   - cd -
+   - ./build_image.sh
+
+
+# use a different script if you want to customize how travis tests are run
+# use verbose flag to dump transcript unconditionally
+script: $BUILDER_CI_HOME/testTravisCI.sh -verbose 
