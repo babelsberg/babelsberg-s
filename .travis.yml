@@ -3,29 +3,29 @@ language: erlang
 
 env:
   matrix:
-    - ST=Pharo-1.4
     - ST=Squeak-4.3
     - ST=Squeak-4.4
+    - ST=Squeak-4.5
+    - ST=Squeak-Trunk
 
 
 matrix:
   fast_finish: true
   allow_failures:
-    - env: ST=Pharo-1.4
+    - env: ST=Squeak-4.3
+    - env: ST=Squeak-4.4
+    - env: ST=Squeak-Trunk
 
 
 install:
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
+   - wget -q -O /tmp/z3.zip https://github.com/timfel/babelsberg-s/raw/binaries/z3-4.3.2.06a4a3599da0-x64-debian-7.4.zip
    - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
    - unzip -q builderCI.zip
    - cd dalehenrich-builderCI*
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
-   - cd $IMAGE_PATH
-   - wget -q -O z3.zip https://github.com/timfel/babelsberg-s/raw/binaries/z3-4.3.2.06a4a3599da0-x64-debian-7.4.zip
-   - unzip -q z3.zip
-   - cd -
    - ./build_image.sh
 
 

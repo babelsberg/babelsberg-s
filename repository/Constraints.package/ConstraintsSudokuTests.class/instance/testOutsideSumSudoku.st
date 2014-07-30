@@ -2,7 +2,7 @@ testing
 testOutsideSumSudoku
 
 	| sudoku solver |
-	sudoku := SudokuOutsideSum newFromFile: 'sudoku_outside-sum.txt'.
+	sudoku := SudokuOutsideSum buildFromString: SudokuOutsideSum defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
 	solver variableType: 'Int'.
 

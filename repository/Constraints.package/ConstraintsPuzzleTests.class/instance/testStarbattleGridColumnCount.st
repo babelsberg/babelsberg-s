@@ -2,7 +2,7 @@ testing
 testStarbattleGridColumnCount
 
 	| starbattle solver |
-	starbattle := StarbattleGrid newFromFile: 'starbattle.txt'.
+	starbattle := StarbattleGrid buildFromString: StarbattleGrid defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
 
 	"(starbattle atColumn: 1) gibt ein Array, kein ConstraintArray, zurück. Dadurch kann count: nicht aufgerufen werden."

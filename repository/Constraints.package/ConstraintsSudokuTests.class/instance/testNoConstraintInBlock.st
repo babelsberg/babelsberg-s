@@ -2,7 +2,7 @@ testing
 testNoConstraintInBlock
 
 	| sudoku solver |
-	sudoku := SudokuGrid newFromFile: 'sudoku.txt'.
+	sudoku := SudokuGrid buildFromString: SudokuGrid defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
 	solver variableType: 'Int'.
 

@@ -2,7 +2,7 @@ testing
 testNoneSatisfyNeighborCount
 
 	| puzzle solver someCells |
-	puzzle := StarbattleGrid newFromFile: 'starbattle.txt'.
+	puzzle := StarbattleGrid buildFromString: StarbattleGrid defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
 	someCells := (Array with: (puzzle at: 2 at: 3) with: (puzzle at: 4 at: 4)).
 

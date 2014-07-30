@@ -2,7 +2,7 @@ testing
 testSudokuGivenNumbers
 
 	| sudoku solver numberOfDefinedCells |
-	sudoku := SudokuGrid newFromFile: 'sudoku.txt'.
+	sudoku := SudokuGrid buildFromString: SudokuGrid defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
 	solver variableType: 'Int'.
 

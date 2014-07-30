@@ -2,7 +2,7 @@ testing
 testStarbattleNeighborCount
 
 	| starbattle solver |
-	starbattle := StarbattleGrid newFromFile: 'starbattle.txt'.
+	starbattle := StarbattleGrid buildFromString: StarbattleGrid defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
 
 	"neighborsOfXy: returns an orderedCollection, not a ConstraintArray."

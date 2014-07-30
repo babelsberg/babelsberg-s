@@ -6,7 +6,8 @@ baseline: spec
 		spec project: 'Widgets' with: [
 			spec
 				className: 'BaselineOfWidgets';
-				repository: 'github://marceltaeumel/widgets:master/repository'].
+				repository: 'github://marceltaeumel/widgets:master/repository';
+				loads: #(full)].
 		
 		spec project: 'ContextS2' with: [
 			spec
@@ -23,9 +24,8 @@ baseline: spec
 		spec package: 'Sudoku' with: [spec requires: #('Widgets')].
 		spec package: 'Puzzles' with: [spec requires: #('Sudoku')].
 		spec package: 'Constraints' with: [
-			spec requires: #('MethodWrappers' 'OSProcess' 'ContextS2' 'Cassowary')].
+			spec requires: #('MethodWrappers' 'OSProcess' 'ContextS2' 'Cassowary' 'Puzzles')].
 		
 		spec
 			group: 'default' with: #('core');
-			group: 'core' with: #('Constraints');
-			group: 'full' with: #('core' 'Puzzles')].
+			group: 'core' with: #('Constraints')].
