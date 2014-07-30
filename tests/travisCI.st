@@ -8,7 +8,11 @@ gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
 
 (Smalltalk at: #Metacello) new
   baseline: 'BabelsbergS';
-  repository: 'github://timfel/babelsberg-s/repository';
+  repository: 'github://',
+                (UnixProcess env at: 'TRAVIS_REPO_SLUG' ifAbsent: ['timfel/babelsberg-s']),
+                ':',
+                (UnixProcess env at: 'TRAVIS_COMMIT' ifAbsent: ['master']),
+                '/repository';
   load.
 
 "Run the tests"
