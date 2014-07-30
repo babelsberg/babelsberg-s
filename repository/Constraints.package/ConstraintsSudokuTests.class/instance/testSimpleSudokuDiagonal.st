@@ -2,7 +2,7 @@ testing
 testSimpleSudokuDiagonal
 
 	| sudoku solver |
-	sudoku := SudokuDiagonal newFromFile: 'sudoku_diagonal.txt'.
+	sudoku := SudokuDiagonal buildFromString: SudokuDiagonal defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
 	solver variableType: 'Int'.
 

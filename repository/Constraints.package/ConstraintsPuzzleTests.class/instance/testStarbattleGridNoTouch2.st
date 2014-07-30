@@ -2,7 +2,7 @@ testing
 testStarbattleGridNoTouch2
 
 	| starbattle solver |
-	starbattle := StarbattleGrid newFromFile: 'starbattle.txt'.
+	starbattle := StarbattleGrid buildFromString: StarbattleGrid defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
 
 	(1 to: starbattle rowCount) do: [:column | 
