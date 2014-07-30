@@ -23,7 +23,7 @@ install:
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - cd $IMAGE_PATH
-   - wget -q -O z3.zip https://z3.codeplex.com/downloads/get/623724
+   - wget -q -O z3.zip https://github.com/timfel/babelsberg-s/raw/binaries/z3-4.3.2.06a4a3599da0-x64-debian-7.4.zip
    - unzip -q z3.zip
    - cd -
    - ./build_image.sh
