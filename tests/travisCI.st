@@ -6,13 +6,14 @@ gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
   ifNil: [ ((Smalltalk at: #'FileSystem') workingDirectory / gitCache) pathString ]
   ifNotNil: [:fileDirectoryClass | (fileDirectoryClass default directoryNamed: gitCache ) fullName].
 
+"actually install the baseline in this checkout"
+Installer mc
+  mc: (MCFileTreeRepository new directory: FileDirectory default / 'repository');
+  install: 'BaselineOfBabelsbergS'.
+
 (Smalltalk at: #Metacello) new
   baseline: 'BabelsbergS';
-  repository: 'github://',
-                (UnixProcess env at: 'TRAVIS_REPO_SLUG' ifAbsent: ['timfel/babelsberg-s']),
-                ':',
-                (UnixProcess env at: 'TRAVIS_COMMIT' ifAbsent: ['master']),
-                '/repository';
+  repository: 'github://timfel/babelsberg-s'; "ignored, because we installed the baseline above"
   load.
 
 "Run the tests"
