@@ -3,6 +3,7 @@ buildGUI
 
 	| borderLeft borderTop borderBottom borderRight |
 
+	irregularPuzzleGui ifNil: [irregularPuzzleGui := self class guiClass new].
 	irregularPuzzleGui setMatrixCoordinatesOf: self.
 
 	self withIndicesDo: [:val :row :column | | irregularCell | 
