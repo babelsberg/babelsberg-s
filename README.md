@@ -1,6 +1,6 @@
 Babelsberg/S
 =============
-[![Build Status](https://travis-ci.org/timfel/babelsberg-s.png?branch=master)](https://travis-ci.org/timfel/babelsberg-s)
+[![Build Status](https://travis-ci.org/babelsberg/babelsberg-s.png?branch=master)](https://travis-ci.org/babelsberg/babelsberg-s)
 
 A Squeak/Smalltalk implementation of Babelsberg licensed under [MIT](https://github.com/timfel/babelsberg-s/blob/master/LICENSE)
 
