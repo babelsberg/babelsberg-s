@@ -20,21 +20,14 @@ Smalltalk allClassesDo: [:class |
 ].
 
 
+
 ExternalUnixOSProcess waitForCommand: 'unzip /tmp/z3.zip; pwd; mv z3-* ', FileDirectory default pathName, '/'.
-
-"ZipArchive new
-  readFrom: '/tmp/z3.zip';
-  extractAllTo: FileDirectory default informing: nil overwrite: true."
-
-
 ExternalUnixOSProcess command: ('echo "OSProcess is working. Z3
   binary is searched in directory ', FileDirectory default pathName,
   ', ', 'which has ', FileDirectory default directoryNames
   printString, ' as contents."').
-
 ExternalUnixOSProcess command: ('echo "Os binary used is ',
   ConstraintZ3Solver new binaryPath, '. Checking if it works..."').
-
 FileStream stdout nextPutAll:
     (ConstraintZ3Solver new executeProgram: '(assert true) (check-sat)').
 
