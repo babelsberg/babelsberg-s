@@ -15,6 +15,7 @@ if [ $exitcode -eq 0 ]; then
 	$VM_PATH/Linux/squeak -nosound -plugins "$VM_PATH/Linux" -encoding Latin1 -nodisplay BabelsbergS.image tests/build_image.st
 	echo "uploading..."
 	curl -T BabelsbergS.image http://www.lively-kernel.org/babelsberg/
+	curl -T BabelsbergS.changes http://www.lively-kernel.org/babelsberg/
     fi
 fi
 exit $exitcode
