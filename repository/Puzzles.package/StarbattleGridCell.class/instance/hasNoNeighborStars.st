@@ -1,4 +1,4 @@
 accessing
 hasNoNeighborStars
 
-	^ self neighbors count: [:neighborCell | neighborCell isStar] result: 0
+	^ self neighbors count: [:neighborCell | neighborCell isStar] equals: 0

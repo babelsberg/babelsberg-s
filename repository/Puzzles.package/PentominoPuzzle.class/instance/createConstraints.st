@@ -19,4 +19,4 @@ createConstraints
 		[self containsPentomino: character] alwaysSolveWith: solver]]
 	timeToRun; cr.
 
-	Transcript show: 'milliseconds to solve the constraints: ', [solver solve] timeToRun; cr.
+	Transcript show: 'milliseconds to solve the constraints: ', [solver solve] timeToRun; cr; cr.
