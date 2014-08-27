@@ -8,7 +8,7 @@ runProcessInConstraintsLibraryReceiver: aReceiver selector: aSelector arguments:
 
 	(methodClass category =  #'Constraints-Core' 
 	or: [methodClass category =  #'Cassowary-Kernel'] 
-	or: [aSelector = 'count:result:' & aReceiver isCollection])
+	or: [aSelector = 'count:equals:' & aReceiver isCollection])
 		ifTrue: ["If we are inside the constraints library, run until error or return to the outer context."
 			| returnValue pair error |
 			(Array with: #ccm) deactivateLayersInCurrentProcess.
@@ -18,7 +18,7 @@ runProcessInConstraintsLibraryReceiver: aReceiver selector: aSelector arguments:
 				ifFalse: [returnValue := self send: aSelector to: aReceiver with: anArray super: superFlag].
 			(returnValue receiver class category =  #'Constraints-Core' 
 			or: [returnValue receiver class category =  #'Cassowary-Kernel'] 
-			or: [returnValue selector = 'count:result:' & returnValue receiver isCollection]) 
+			or: [returnValue selector = 'count:equals:' & returnValue receiver isCollection]) 
 				ifTrue: ["The category of the new receiver may be another one, because we already did a send."
 					pair := returnValue runUntilErrorOrReturnFrom: returnValue.	
 					error := pair second.

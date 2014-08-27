@@ -7,7 +7,7 @@ testNoneSatisfyNeighborCount
 	someCells := (Array with: (puzzle at: 2 at: 3) with: (puzzle at: 4 at: 4)).
 
 	self shouldnt: [[someCells noneSatisfy: [:cell | 
-		cell neighbors count: [:neighbor | neighbor isStar] result: 1]] alwaysSolveWith: solver] raise: Error.
+		cell neighbors count: [:neighbor | neighbor isStar] equals: 1]] alwaysSolveWith: solver] raise: Error.
 	
 	self should: [someCells noneSatisfy: [:cell | 
-		cell neighbors count: [:neighbor | neighbor isStar] result: 1]].
+		cell neighbors count: [:neighbor | neighbor isStar] equals: 1]].

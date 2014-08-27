@@ -1,5 +1,5 @@
 *Constraints
-count: aBlock result: aNumber
+count: aBlock equals: aNumber
 	"This method should return a ConstraintCountExpression."
 	| countExpr constraint |
 	Processor activeProcess isConstructingConstraint

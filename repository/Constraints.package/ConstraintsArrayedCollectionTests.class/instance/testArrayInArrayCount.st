@@ -9,5 +9,5 @@ testArrayInArrayCount
 	ex arrayCollection at: 3 put: #(1 2 3).
 	solver := ConstraintSolver newZ3Solver.
 
-	self shouldnt: [[ex arrayCollection first count: [:each | each = 2] result: 4] alwaysSolveWith: solver] raise: Error.
+	self shouldnt: [[ex arrayCollection first count: [:each | each = 2] equals: 4] alwaysSolveWith: solver] raise: Error.
 	self should: [(ex arrayCollection first count: [:each | each = 2]) = 4].

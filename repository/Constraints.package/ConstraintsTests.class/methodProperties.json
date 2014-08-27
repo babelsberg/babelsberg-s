@@ -34,4 +34,5 @@
 		"testNoConstraintInBlock" : "mg 5/14/2014 14:34",
 		"testPriorityChange" : "mg 5/8/2014 10:13",
 		"testPriorityOrder" : "mg 4/16/2014 12:02",
-		"testSimpleAssignmentConstraint" : "mg 4/22/2014 15:50" } }
+		"testSimpleAssignmentConstraint" : "mg 4/22/2014 15:50",
+		"testSuperCallInConstraint" : "mg 8/5/2014 14:11" } }

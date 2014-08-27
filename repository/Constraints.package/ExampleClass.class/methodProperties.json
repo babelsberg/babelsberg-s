@@ -13,4 +13,5 @@
 		"collection:" : "mg 6/4/2014 14:38",
 		"initialize" : "mg 6/13/2014 13:40",
 		"matrixCollection" : "mg 6/13/2014 13:40",
-		"matrixCollection:" : "mg 6/13/2014 13:40" } }
+		"matrixCollection:" : "mg 6/13/2014 13:40",
+		"methodWithSuperCall" : "mg 8/5/2014 14:09" } }

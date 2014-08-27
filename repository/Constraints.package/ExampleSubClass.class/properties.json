@@ -1,0 +1,14 @@
+{
+	"category" : "Constraints-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"x" ],
+	"name" : "ExampleSubClass",
+	"pools" : [
+		 ],
+	"super" : "ExampleClass",
+	"type" : "normal" }

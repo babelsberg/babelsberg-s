@@ -8,12 +8,12 @@ testStarbattleGridNoTouch
 	(1 to: starbattle rowCount) do: [:column | 
 		self shouldnt: [
 			[((starbattle mooreNeighborsOfX: 1 y: column)
-				count: [:neighborCell | neighborCell isStar] result: 0) |
+				count: [:neighborCell | neighborCell isStar] equals: 0) |
 			((starbattle at: 1 at: column) isStar not)] alwaysSolveWith: solver] 
 		raise: Error].
 
 	(1 to: starbattle rowCount) do: [:column | 
 		self should: [ 
 			((starbattle mooreNeighborsOfX: 1 y: column)
-				count: [:neighborCell | neighborCell isStar] result: 0) |
+				count: [:neighborCell | neighborCell isStar] equals: 0) |
 			((starbattle at: 1 at: column) isStar not)]].
