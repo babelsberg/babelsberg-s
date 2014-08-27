@@ -8,7 +8,7 @@ createConstraints
 	self addConstraintsForAllGivenNumbers]
 	timeToRun; cr.
 
-	Transcript show: 'create domain constraints: ', [
+	Transcript show: 'milliseconds to create domain constraints: ', [
 	[self allSatisfy: [:val | val between: 1 and: 9]] alwaysSolveWith: solver]
 	timeToRun; cr.
 
@@ -24,4 +24,4 @@ createConstraints
 	[self diagonalFromTopRightToBottomLeft allDifferent] alwaysSolveWith: solver]
 	timeToRun; cr..
 
-	Transcript show: 'milliseconds to solve the sudoku constraints: ', [solver solve] timeToRun; cr.
+	Transcript show: 'milliseconds to solve the sudoku constraints: ', [solver solve] timeToRun; cr; cr.

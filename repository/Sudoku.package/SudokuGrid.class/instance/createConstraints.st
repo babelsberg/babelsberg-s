@@ -19,4 +19,4 @@ createConstraints
 		(self atBox: index) allDifferent] alwaysSolveWith: solver]]
 	timeToRun; cr.
 
-	Transcript show: 'milliseconds to solve the sudoku constraints: ', [solver solve] timeToRun; cr.
+	Transcript show: 'milliseconds to solve the sudoku constraints: ', [solver solve] timeToRun; cr; cr.
