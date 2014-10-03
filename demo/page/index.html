@@ -27,30 +27,34 @@ THE SOFTWARE.
 <link rel="apple-touch-icon" href="icon.png" sizes="152x152">
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<link rel="stylesheet" href="squeakjs/gh-fork-ribbon.css">
-<link rel="stylesheet" href="squeakjs/addtohomescreen.css">
-<script src="squeakjs/addtohomescreen.js"></script>
+<link rel="stylesheet" href="../lib/gh-fork-ribbon.css">
+<link rel="stylesheet" href="../lib/addtohomescreen.css">
+<script src="../lib/addtohomescreen.js"></script>
 
 <link rel="stylesheet" href="demo.css">
-<script src="squeakjs/lz-string.js"></script>
-<script src="squeakjs/squeak.js"></script>
-<script src="squeakjs/vm.js"></script>
+<script src="../lib/squeak.js"></script>
 <script src="demo.js"></script>
 
 </head>
 <body>
+  <div id="sqHeader">
     <h1>Babelsberg/S on SqueakJS</h1>
-    <progress value="0" max="100">Loading image ...</progress>
-    <canvas width="1200" height="900" contenteditable="true"></canvas>
-    <p>This is a very early version of SqueakJS running a Babelsberg/S image.<br><br>
+    <label title="Swap middle and right mouse buttons"><input id="sqSwapButtons" type="checkbox">swap buttons</label>
+    <label title="Make Squeak as large as possible"><input id="sqFullscreen" type="checkbox">full screen</label>
+    <div class="github-fork-ribbon-wrapper right">
+      <div class="github-fork-ribbon">
+        <a href="https://github.com/babelsberg/babelsberg-s" target="_blank">Fork me on GitHub</a>
+      </div>
+    </div>
+  </div>
+  <canvas id="sqCanvas"></canvas>
+  <div id="sqSpinner"><div></div></div>
+  <div id="sqFooter">
+    <p>This is a very early version of SqueakJS running a Babelsberg/S image.<br/><br/>
     <a href="https://bertfreudenberg.github.io/SqueakJS">SqueakJS</a> is a <a href="http://squeak.org/" target="_blank">Squeak</a> VM written in pure JavaScript by Bert Freudenberg.
     It is here used to run a Babelsberg/S image directly in your browser. You will need a fast computer. According to our benchmarks the performance is best with Safari 8, followed by Internet Explorer 11, Firefox 35, and Chrome 38.
     You can also <a href="http://www.lively-kernel.org/babelsberg/BabelsbergS.image">download</a> the image and run it locally.
     </p>
-    <div class="github-fork-ribbon-wrapper right">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/babelsberg/babelsberg-s" target="_blank">Fork me on GitHub</a>
-        </div>
-    </div>
+  </div>
 </body>
 </html>

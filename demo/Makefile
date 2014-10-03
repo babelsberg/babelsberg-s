@@ -5,24 +5,41 @@ BASE="https://raw.githubusercontent.com/bertfreudenberg/SqueakJS/master/"
 
 default: all
 clean:
-	rm squeakjs/*
+	mkdir -p lib
+	mkdir -p plugins
+	rm -f lib/*
+	rm -f plugins/*
+	rm -f *.js
 
-squeakjs/addtohomescreen.css:
+lib/addtohomescreen.css:
 	$(CURL) $@ $(BASE)/lib/addtohomescreen.css
 
-squeakjs/addtohomescreen.js:
+lib/addtohomescreen.js:
 	$(CURL) $@ $(BASE)/lib/addtohomescreen.js
 
-squeakjs/gh-fork-ribbon.css:
+lib/gh-fork-ribbon.css:
 	$(CURL) $@ $(BASE)/lib/gh-fork-ribbon.css
 
-squeakjs/lz-string.js:
+lib/lz-string.js:
 	$(CURL) $@ $(BASE)/lib/lz-string.js
 
-squeakjs/squeak.js:
+lib/squeak.js:
 	$(CURL) $@ $(BASE)/lib/squeak.js
 
-squeakjs/vm.js:
+vm.js:
 	$(CURL) $@ $(BASE)/vm.js
 
-all: squeakjs/addtohomescreen.css squeakjs/addtohomescreen.js squeakjs/gh-fork-ribbon.css squeakjs/lz-string.js squeakjs/squeak.js squeakjs/vm.js
+jit.js:
+	$(CURL) $@ $(BASE)/jit.js
+
+ui.js:
+	$(CURL) $@ $(BASE)/ui.js
+
+plugins/LargeIntegers.js:
+	$(CURL) $@ $(BASE)/plugins/LargeIntegers.js
+
+all: lib/addtohomescreen.css lib/addtohomescreen.js \
+	lib/gh-fork-ribbon.css lib/lz-string.js \
+	lib/squeak.js vm.js\
+	ui.js jit.js \
+	plugins/LargeIntegers.js
