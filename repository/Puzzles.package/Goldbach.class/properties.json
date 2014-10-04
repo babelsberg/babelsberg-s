@@ -1,0 +1,17 @@
+{
+	"category" : "Puzzles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tk 9/10/2014 16:26",
+	"instvars" : [
+		"evens",
+		"max",
+		"knownPrimes",
+		"solver" ],
+	"name" : "Goldbach",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
