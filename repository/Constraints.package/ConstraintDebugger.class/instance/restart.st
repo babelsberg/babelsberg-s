@@ -1,4 +1,5 @@
 context stack menu
 restart
 
-	^ [#ccm withLayerDo: [super restart]] ensure: [self constraintChanged]
+	^ #ccmDebug withLayerDo: [
+		[self constraintLayer withLayerDo: [super restart]] ensure: [self constraintChanged]]

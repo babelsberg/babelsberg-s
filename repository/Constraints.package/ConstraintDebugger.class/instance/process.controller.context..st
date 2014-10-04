@@ -1,6 +1,6 @@
 private
 process: aProcess controller: aController context: aContext
-	| aConstraintSolver constraint solvers |
+	"| aConstraintSolver constraint solvers |
 	solvers := ConstraintSolver class organization listAtCategoryNamed: #'instance creation'.
 	aConstraintSolver := ConstraintSolver perform: (UIManager default chooseFrom: solvers values: solvers title: 'Which solver?').
 	constraint := aConstraintSolver class constraintClass new
@@ -8,5 +8,5 @@ process: aProcess controller: aController context: aContext
 					priority: ConstraintPriority required;
 					solver: aConstraintSolver;
 					yourself.
-	Processor activeProcess environmentAt: #constraintObject put: constraint.
+	Processor activeProcess environmentAt: #constraintObject put: constraint."
 	^ super process: aProcess controller: aController context: aContext

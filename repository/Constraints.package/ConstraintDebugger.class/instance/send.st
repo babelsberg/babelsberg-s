@@ -1,4 +1,5 @@
 context stack menu
 send
-
-	^ [#ccm withLayerDo: [super send]] ensure: [self constraintChanged]
+	
+	^ #ccmDebug withLayerDo: [
+		[self constraintLayer withLayerDo: [super send]] ensure: [self constraintChanged]]

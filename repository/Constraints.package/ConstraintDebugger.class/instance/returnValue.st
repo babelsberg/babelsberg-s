@@ -1,4 +1,5 @@
 context stack menu
 returnValue
 
-	^ [#ccm withLayerDo: [super returnValue]] ensure: [self constraintChanged]
+	^ #ccmDebug withLayerDo: [[
+		self constraintLayer withLayerDo: [super returnValue]] ensure: [self constraintChanged]]

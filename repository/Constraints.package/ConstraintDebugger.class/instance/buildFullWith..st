@@ -2,8 +2,9 @@ toolbuilder
 buildFullWith: builder
 	| windowSpec listSpec textSpec extent |
 	windowSpec := builder pluggableWindowSpec new.
-	windowSpec model: self.
-	windowSpec label: 'Debugger'.
+	windowSpec
+		model: self;
+		label: #labelString.
 	Display height < 800 "a small screen" 
 		ifTrue:[extent := RealEstateAgent standardWindowExtent]
 		ifFalse:[extent := 600@700].
@@ -77,4 +78,4 @@ buildFullWith: builder
 		frame: (0.7@0.8 corner: 1@1).
 	windowSpec children add: textSpec.
 
-	^builder build: windowSpec
+	^ [builder build: windowSpec] ensure: [self labelString: 'Constraint Debugger'.]

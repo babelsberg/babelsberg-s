@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"constraintIndex" ],
+		"constraintIndex",
+		"constraintLayer" ],
 	"name" : "ConstraintDebugger",
 	"pools" : [
 		 ],

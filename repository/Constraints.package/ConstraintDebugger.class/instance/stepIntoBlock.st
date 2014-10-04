@@ -1,4 +1,5 @@
 context stack menu
 stepIntoBlock
-
-	^ [#ccm withLayerDo: [super stepIntoBlock]] ensure: [self constraintChanged]
+	
+	^ #ccmDebug withLayerDo: [
+		[self constraintLayer withLayerDo: [super stepIntoBlock]] ensure: [self constraintChanged]]

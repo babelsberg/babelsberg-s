@@ -1,4 +1,5 @@
 context stack menu
 doStep
 
-	^ [#ccm withLayerDo: [super doStep]] ensure: [self constraintChanged]
+	^ #ccmDebug withLayerDo: [[
+			self constraintLayer withLayerDo: [super doStep]] ensure: [self constraintChanged]]

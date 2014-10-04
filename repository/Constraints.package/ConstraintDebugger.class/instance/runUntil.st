@@ -1,4 +1,5 @@
 code pane menu
 runUntil
 
-	^ [#ccm withLayerDo: [super runUntil]] ensure: [self constraintChanged]
+	^ #ccmDebug withLayerDo: [
+		[self constraintLayer withLayerDo: [super runUntil]] ensure: [self constraintChanged]]
