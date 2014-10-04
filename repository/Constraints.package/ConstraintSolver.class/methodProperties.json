@@ -15,6 +15,7 @@
 		"initialize" : "mg 6/6/2014 13:10",
 		"isCassowarySolver" : "mg 7/2/2014 15:19",
 		"isZ3Solver" : "mg 7/4/2014 13:07",
+		"newConstraint:" : "mg 9/12/2014 11:00",
 		"removeAllConstraints" : "mg 5/12/2014 14:30",
 		"removeConstraint:" : "mg 5/12/2014 14:41",
 		"solve" : "mg 5/12/2014 14:28",

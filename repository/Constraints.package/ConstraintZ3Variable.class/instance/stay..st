@@ -13,3 +13,4 @@ stay: aConstraintPriority
 				ConstraintUnsatisfiableError new 
 					signal: 'It is not possible to add a stay constraint with the given priority.'].
 	self stayConstraint: constraint.
+	^ constraint expressions first

@@ -16,6 +16,8 @@ valueOrConstraintVariableFor: method receiver: receiver value: value
 				ifTrue: ["There is a problem with replacing objects of compact Classes, like Point. The primitive behind adoptInstance will fail. So, Point are not supported in constraints."
 						"Transcript show: 'Warning - Cannot replace instance Variable ', receiver, '>>', method selector; cr. "
 						^ value].
+			(method selector = 'superclass')
+				ifTrue: ["Do not replace the instance variable superclass" ^ value].
 			cv := value asConstraintVariableForMethodName: method selector asString.
 			setter := method methodClass methodDict at: (method selector asString, ':') asSymbol.
 			setter unwrappedMethod valueWithReceiver: receiver arguments: (Array with: cv).

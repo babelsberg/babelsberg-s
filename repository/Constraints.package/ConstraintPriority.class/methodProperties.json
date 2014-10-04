@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"fromCassowaryStrength:" : "mg 4/16/2014 15:34",
+		"fromCassowaryStrength:" : "mg 9/16/2014 16:32",
+		"high" : "mg 9/16/2014 16:31",
+		"low" : "mg 9/16/2014 16:32",
 		"medium" : "mg 4/16/2014 11:56",
-		"required" : "mg 4/16/2014 11:55",
-		"strong" : "mg 4/16/2014 11:55",
-		"weak" : "mg 4/16/2014 11:56" },
+		"required" : "mg 4/16/2014 11:55" },
 	"instance" : {
 		"<" : "mg 4/16/2014 12:02",
 		"<=" : "mg 4/16/2014 11:58",

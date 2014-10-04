@@ -1,4 +1,4 @@
 comparing
 stay
 
-	self stay: ConstraintPriority required.
+	^ self stay: ConstraintPriority required.

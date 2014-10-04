@@ -9,6 +9,7 @@
 		"testAllSatisfyCassowary" : "mg 6/13/2014 11:43",
 		"testAllSatisfyWithAnd" : "mg 6/13/2014 13:04",
 		"testAnySatisfyCassowary" : "mg 6/13/2014 11:43",
+		"testAnySatisfyZ3" : "mg 9/12/2014 11:29",
 		"testArrayInArrayAllSatisfyCassowary" : "mg 7/14/2014 16:38",
 		"testArrayInArrayCount" : "mg 8/14/2014 12:02",
 		"testContainsCassowary" : "mg 6/13/2014 11:43",

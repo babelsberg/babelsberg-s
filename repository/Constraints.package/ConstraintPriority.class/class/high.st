@@ -1,5 +1,5 @@
 instance creation
-strong
+high
 
 	^ self new 
 		name: 'strong';

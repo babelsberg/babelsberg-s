@@ -1,5 +1,5 @@
 instance creation
-weak
+low
 
 	^ self new 
 		name: 'weak';

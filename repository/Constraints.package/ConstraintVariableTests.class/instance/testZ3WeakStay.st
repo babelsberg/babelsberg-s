@@ -10,6 +10,6 @@ testZ3WeakStay
 		varName: 'x'.
 
 	self should: [z3Var stayConstraint = nil].
-	self should: [z3Var stay: ConstraintPriority weak] raise: Error.
+	self should: [z3Var stay: ConstraintPriority low] raise: Error.
 	self should: [z3Var stayConstraint = nil].
 	self shouldnt: [z3Var suggestValue: 23] raise: Error.
