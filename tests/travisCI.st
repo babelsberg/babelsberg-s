@@ -18,7 +18,8 @@ Smalltalk allClassesDo: [:class |
 			Smalltalk removeKey: class name.
 			Smalltalk at: class name asSymbol put: Object]
 ].
-
+Smalltalk removeKey: #MwBlockHandlerMethodWrapperTest.
+Smalltalk at: #MwBlockHandlerMethodWrapperTest put: Object.
 
 
 ExternalUnixOSProcess waitForCommand: 'unzip /tmp/z3.zip; pwd; mv z3-* ', FileDirectory default pathName, '/'.
