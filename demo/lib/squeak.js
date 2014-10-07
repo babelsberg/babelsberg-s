@@ -74,14 +74,21 @@ Object.extend = function(obj /* + more args */ ) {
 };
 
 //////////////////////////////////////////////////////////////////////////////
-// load vm 
+// load vm, plugins, and other libraries
 //////////////////////////////////////////////////////////////////////////////
 
 (function(){
     var vmDir = window.SqueakJSDir || "../";
     [   "vm.js",
         "jit.js",
+        "plugins/BitBltPlugin.js",
         "plugins/LargeIntegers.js",
+        "plugins/MiscPrimitivePlugin.js",
+        "plugins/ZipPlugin.js",
+        "plugins/SoundGenerationPlugin.js",
+        "plugins/Matrix2x3Plugin.js",
+        "plugins/FloatArrayPlugin.js",
+        "plugins/ScratchPlugin.js",
         "lib/lz-string.js",
     ].forEach(function(filename) {
         var script = document.createElement('script');
@@ -523,8 +530,11 @@ function createSqueakDisplay(canvas, options) {
         }, 300);
 
         // if no fancy layout, don't bother
-        if (!options.header || !options.footer) return;
-        
+        if (!options.header || !options.footer) {
+            display.width = canvas.width;
+            display.height = canvas.height;
+            return;
+        }
         // CSS won't let us do what we want so we will layout the canvas ourselves.
         // Also, we need to paper over browser differences in fullscreen mode where
         // Firefox scales the canvas but Webkit does not, which makes a difference
@@ -621,20 +631,27 @@ var loop; // holds timeout for main loop
 
 SqueakJS.runImage = function(buffer, name, display, options) {
     SqueakJS.appName = options.appName || "SqueakJS";
+    SqueakJS.options = options;
+    window.onbeforeunload = function() {
+        return SqueakJS.appName + " is still running";
+    };
     window.clearTimeout(loop);
     display.reset();
     display.clear();
     display.showBanner("Initializing " + SqueakJS.appName + ", please wait");
+    var self = this;
     window.setTimeout(function() {
         var image = new Squeak.Image(buffer, name);
         var vm = new Squeak.Interpreter(image, display);
+        SqueakJS.vm = vm;
         localStorage["squeakImageName"] = name;
         setupSwapButtons(options);
         display.clear();
         var spinner = setupSpinner(vm, options);
         function run() {
             try {
-                vm.interpret(200, function(ms) {
+                if (display.quitFlag) self.onQuit(vm, display, options);
+                else vm.interpret(200, function(ms) {
                     if (ms == "sleep") ms = 200;
                     if (spinner) updateSpinner(spinner, ms, vm, display);
                     loop = window.setTimeout(run, ms);
@@ -682,6 +699,17 @@ SqueakJS.runSqueak = function(url, canvas, options) {
     rq.send();
 };
 
+SqueakJS.quitSqueak = function() {
+    SqueakJS.vm.quitFlag = true;
+};
+
+SqueakJS.onQuit = function(vm, display, options) {
+    window.onbeforeunload = null;
+    if (options.spinner) options.spinner.style.display = "none";
+    if (options.onQuit) options.onQuit(vm, display, options);
+    else display.showBanner(SqueakJS.appName + " stopped.");
+};
+
 }); // end module
 
 //////////////////////////////////////////////////////////////////////////////
@@ -698,9 +726,3 @@ if (window.applicationCache) {
         }
     });
 }
-
-window.onbeforeunload = function() {
-    if (!SqueakJS) return;
-    var appName = SqueakJS.appName || "SqueakJS";
-    return appName + " is still running";
-};
