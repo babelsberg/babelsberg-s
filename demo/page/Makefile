@@ -2,7 +2,8 @@ TARGET=.
 MANIFEST=$(TARGET)/offline.appcache
 FILES=../lib/squeak.js ../vm.js ../jit.js ../plugins/*.js index.html demo.css demo.js icon.png \
 	../lib/lz-string.js ../lib/addtohomescreen.css ../lib/addtohomescreen.js ../lib/gh-fork-ribbon.css
-EXTRA='http://www.lively-kernel.org/babelsberg/BabelsbergS.image'
+# EXTRA='http://www.lively-kernel.org/babelsberg/BabelsbergS.image'
+EXTRA=
 
 $(MANIFEST): Makefile $(FILES)
 	@rm -f $@
