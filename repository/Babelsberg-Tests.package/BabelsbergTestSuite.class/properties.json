@@ -1,0 +1,14 @@
+{
+	"category" : "Babelsberg-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ctx" ],
+	"name" : "BabelsbergTestSuite",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,29 @@
+{
+	"category" : "Babelsberg-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"a",
+		"b",
+		"c",
+		"x",
+		"y",
+		"z",
+		"def",
+		"pA",
+		"pB",
+		"pt",
+		"p",
+		"q",
+		"m",
+		"unsat",
+		"temp",
+		"r" ],
+	"name" : "BabelsbergTestSuiteContextClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

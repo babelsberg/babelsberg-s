@@ -27,7 +27,10 @@ baseline: spec
 			spec requires: #('MethodWrappers' 'OSProcess' 'ContextS2' 'Cassowary' 'Puzzles')].
 		spec package: 'ConstraintsDebugger' with: [
 			spec requires: #('Constraints')].
+		spec package: 'Babelsberg-Tests' with: [
+			spec required: 'Constraints'].
 		
 		spec
 			group: 'default' with: #('core');
-			group: 'core' with: #('Constraints' 'ConstraintsDebugger')].
+			group: 'core' with: #('Constraints' 'ConstraintsDebugger');
+			group: 'dev' with: #('Babelsberg-Tests')].
