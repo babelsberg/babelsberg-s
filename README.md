@@ -35,3 +35,27 @@ If you want to commit to Github directly from Squeak, you can try [Metacello-Git
   highestNumberedVersionForPackageNamed: 'Metacello-Git') load.
 ```
 This will allow you to add a `Git (remote)` repository to the packages in this project. It will use your system's git command. You can configure the path in the GitHub section of the Squeak Preferences tool. Note that Metacello-Git does not handle authentication - it's easiest if you use an SSH url and setup your system to automatically supply the correct public key (usually just works on Unix, you can use e.g. Pageant on Windows.)
+
+##How to develop
+
+If you want to forward development, there are a number of areas that
+need work. In general, the system needs to be refactored so other
+constraint solvers (e.g. DeltaBlue) can be added more easily. There
+are also a number of things that this implementation does not do, yet,
+that are desirable, such as identity constraints, constraint
+priorities at time of definition, proper readonly variables, or
+automatic recalculation of constraints when a complex object involved
+in the constraint changes identity (the latter is an optimization
+found in the Babelsberg/R and Babelsberg/JS implementations). Further
+down the road, the constraints from different constraint solvers
+should be able to interact (as implemented in Babelsberg/JS).
+
+The repository includes a package, Babelsberg-Tests, that includes the
+conformance tests generated from the
+[executable semantics](https://github.com/babelsberg/babelsberg-rml). These
+may be a little outdated if they have not been regenerated in some
+time, but in any case, a goal for further development should be to
+improve pass rates on these tests. As a guideline, Babelsberg/JS
+currently passes 39 of these tests using a combination of Z3 and
+DeltaBlue (the latter for identity constraints). Getting the number
+for Babelsberg/S up to mid-30 would be worthwhile.
