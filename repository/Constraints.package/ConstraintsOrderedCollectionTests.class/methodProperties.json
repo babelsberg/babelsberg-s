@@ -13,6 +13,7 @@
 		"testContainsCassowary" : "mg 6/13/2014 11:21",
 		"testContainsZ3" : "mg 6/13/2014 11:21",
 		"testIndexedConstraint" : "mg 6/13/2014 11:23",
+		"testInjectInto" : "mg 10/13/2014 13:11",
 		"testNoneSatisfyCassowary" : "mg 6/13/2014 13:46",
 		"testNoneSatisfyZ3" : "mg 6/13/2014 13:46",
 		"testObjectInOrderedCollection" : "mg 7/2/2014 14:03",

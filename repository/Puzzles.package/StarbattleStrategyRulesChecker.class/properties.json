@@ -1,0 +1,14 @@
+{
+	"category" : "Puzzles-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StarbattleStrategyRulesChecker",
+	"pools" : [
+		 ],
+	"super" : "StarbattleStrategy",
+	"type" : "normal" }

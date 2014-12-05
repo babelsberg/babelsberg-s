@@ -1,0 +1,15 @@
+{
+	"category" : "Puzzles-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inputMatrix",
+		"solvedCells" ],
+	"name" : "StarbattleStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

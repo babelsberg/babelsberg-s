@@ -2,6 +2,7 @@
 allDifferent
 "This method is used in constraint construction mode."
 	| expression allDifferentExpression |
+	"TODO: check whether the current solver is Z3. If not, raise an ConstraintUnsatisfiableError. Do it without sending activeProcess to Process"
 	(self allSatisfy: [:each | each isConstraintVariable])
 		ifTrue: [expression := ConstraintDistinctExpression new.
 			self do: [:each | expression addVariable: each].

@@ -25,7 +25,9 @@ baseline: spec
 		spec package: 'Puzzles' with: [spec requires: #('Sudoku')].
 		spec package: 'Constraints' with: [
 			spec requires: #('MethodWrappers' 'OSProcess' 'ContextS2' 'Cassowary' 'Puzzles')].
+		spec package: 'ConstraintsDebugger' with: [
+			spec requires: #('Constraints')].
 		
 		spec
 			group: 'default' with: #('core');
-			group: 'core' with: #('Constraints')].
+			group: 'core' with: #('Constraints' 'ConstraintsDebugger')].

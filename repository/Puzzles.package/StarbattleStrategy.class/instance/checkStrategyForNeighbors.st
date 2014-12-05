@@ -1,0 +1,3 @@
+solving
+checkStrategyForNeighbors
+	self subclassResponsibility.

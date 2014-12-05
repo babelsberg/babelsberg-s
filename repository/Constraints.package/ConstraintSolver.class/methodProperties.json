@@ -3,6 +3,7 @@
 		"cassowarySolver" : "mg 5/12/2014 14:23",
 		"constraintClass" : "mg 5/13/2014 13:10",
 		"constraintVariableFor:" : "mg 5/13/2014 10:53",
+		"constraintVariableFor:withName:" : "mg 10/20/2014 14:01",
 		"newCassowarySolver" : "mg 5/12/2014 14:24",
 		"newZ3Solver" : "mg 5/12/2014 14:38" },
 	"instance" : {

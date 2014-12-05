@@ -1,0 +1,3 @@
+solving
+checkStrategyForRegions
+	self subclassResponsibility.

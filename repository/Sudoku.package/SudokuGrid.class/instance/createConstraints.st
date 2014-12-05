@@ -3,20 +3,16 @@ createConstraints
 	"This method creates all necessary constraints to solve a standard Sudoku puzzle with Z3."
 	solver variableType: 'Int'.
 	solver autoSolve: false.
+	"the output format on the Transcript is: stay, domain, loops, solving" 
+	Transcript show: [self addConstraintsForAllGivenNumbers] timeToRun asString, ','.
 
-	Transcript show: 'milliseconds to create stay constraints: ', [
-	self addConstraintsForAllGivenNumbers]
-	timeToRun; cr.
+	Transcript show: [[self allSatisfy: [:val | val between: 1 and: 9]] alwaysSolveWith: solver] timeToRun asString, ','.
 
-	Transcript show: 'milliseconds to create domain constraints: ', [
-	[self allSatisfy: [:val | val between: 1 and: 9]] alwaysSolveWith: solver]
-	timeToRun; cr.
-
-	Transcript show: 'milliseconds to create row, column and box constraints: ', [
+	Transcript show: [
 	(1 to: self rowCount) do: [:index |
 		[(self atRow: index) allDifferent &
 		(self atColumn: index) allDifferent &
 		(self atBox: index) allDifferent] alwaysSolveWith: solver]]
-	timeToRun; cr.
+	timeToRun asString, ','.
 
-	Transcript show: 'milliseconds to solve the sudoku constraints: ', [solver solve] timeToRun; cr; cr.
+	Transcript show: [solver solve] timeToRun; cr.

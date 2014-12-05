@@ -4,4 +4,4 @@ checkConstraintForBoxAt: i at: j
 	| assignedNumbers box |
 	box := self getBoxCellsAt: i at: j in: inputMatrix.
 	assignedNumbers := self collectAssignedNumbers: box.
-	self removeAssignedNumbers: assignedNumbers from: (self getBoxCellsAt: i at: j in: candidates).
+	self removeAssignedNumbers: assignedNumbers from: (self getBoxCellsAt: i at: j in: inputMatrix).

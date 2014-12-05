@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"collectionIsValid:" : "mg 10/27/2014 13:02",
+		"finished:" : "mg 10/22/2014 17:28",
+		"isValid:" : "mg 10/27/2014 13:07" },
+	"instance" : {
+		"checkStrategyFor:" : "mg 10/27/2014 12:57",
+		"checkStrategyForColumns" : "mg 10/26/2014 21:36",
+		"checkStrategyForNeighbors" : "mg 10/26/2014 21:42",
+		"checkStrategyForRegions" : "mg 10/26/2014 21:44",
+		"checkStrategyForRows" : "mg 10/26/2014 21:35",
+		"removeCandidateStarsFrom:" : "mg 10/27/2014 12:44" } }

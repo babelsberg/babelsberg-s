@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedFailures" : "tfel 8/1/2014 16:44",
+		"expectedFailures" : "mg 11/15/2014 14:57",
 		"testAllDifferentMatrix" : "mg 6/13/2014 13:42",
 		"testAllSatisfyMatrixWithAnd" : "mg 6/13/2014 13:44",
 		"testAllSudokuConstraints" : "mg 7/30/2014 11:58",
@@ -27,6 +27,7 @@
 		"testSudokuRowCollect" : "mg 7/30/2014 12:01",
 		"testSudokuRowConjuction" : "mg 7/30/2014 12:01",
 		"testSudokuRowConjuctionError" : "mg 7/30/2014 12:01",
+		"testSudokuRowIncludesAll" : "mg 9/19/2014 15:49",
 		"testSumMatrix" : "mg 6/23/2014 15:50",
 		"testUnsatisfiableAllDifferent" : "mg 7/30/2014 12:01",
 		"testVariableType" : "mg 6/13/2014 13:51" } }

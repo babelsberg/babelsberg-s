@@ -3,6 +3,9 @@
 		"cellClass" : "mg 7/2/2014 17:06",
 		"guiClass" : "mg 8/1/2014 13:39" },
 	"instance" : {
-		"createConstraints" : "mg 8/14/2014 12:03",
+		"backtrack" : "mg 10/22/2014 17:33",
+		"createConstraints" : "mg 11/15/2014 14:36",
+		"initialCandidates" : "mg 10/22/2014 17:25",
+		"printGrid" : "mg 10/27/2014 11:42",
 		"removeStarAtX:y:" : "mg 7/3/2014 18:22",
 		"suggestStarAtX:y:" : "mg 7/3/2014 18:17" } }

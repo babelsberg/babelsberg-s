@@ -6,4 +6,6 @@
 		"endlessBorderAt:at:" : "mg 7/21/2014 14:09",
 		"initialize" : "mg 7/21/2014 14:08",
 		"mooreNeighborsOfX:y:" : "mg 7/21/2014 14:10",
+		"solver" : "mg 10/22/2014 17:01",
+		"solver:" : "mg 10/22/2014 17:01",
 		"vonNeumannNeighborsOfX:y:" : "mg 7/21/2014 14:31" } }

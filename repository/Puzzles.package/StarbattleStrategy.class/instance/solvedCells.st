@@ -1,0 +1,4 @@
+accessing
+solvedCells
+
+	^ solvedCells

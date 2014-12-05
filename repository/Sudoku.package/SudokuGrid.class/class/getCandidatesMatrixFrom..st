@@ -6,7 +6,7 @@ getCandidatesMatrixFrom: aMatrix
 	1 to: 9 do:
 		[:i | allCandidates add: i].
 	
-	candidates := Matrix new: 9.
+	candidates := SudokuGrid new: 9.
 	1 to: 9 do:
 		[:i | 1 to: 9 do:
 			[:j | ((aMatrix at: i at: j) = 0)

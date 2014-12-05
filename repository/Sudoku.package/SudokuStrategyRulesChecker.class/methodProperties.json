@@ -3,10 +3,10 @@
 		"finished:" : "mg 2/3/2013 12:11:55.052",
 		"isValid:" : "mg 2/3/2013 01:55:48.729" },
 	"instance" : {
-		"checkConstraintForBoxAt:at:" : "mg 12/19/2012 14:43:49.708",
+		"checkConstraintForBoxAt:at:" : "mg 11/5/2014 17:17",
 		"checkStrategyForBoxes" : "mg 12/19/2012 13:34:38.321",
-		"checkStrategyForColumns" : "mg 12/19/2012 14:43:49.623",
-		"checkStrategyForRows" : "mg 12/19/2012 14:43:49.8",
+		"checkStrategyForColumns" : "mg 11/5/2014 17:15",
+		"checkStrategyForRows" : "mg 11/5/2014 17:15",
 		"collectAssignedNumbers:" : "MG 11/24/2012 15:22",
 		"description" : "mg 2/2/2013 20:26:27.583",
 		"findHighlightCandidates" : "mg 1/10/2013 21:11:18.959",

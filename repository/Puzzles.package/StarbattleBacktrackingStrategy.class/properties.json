@@ -1,0 +1,14 @@
+{
+	"category" : "Puzzles-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StarbattleBacktrackingStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

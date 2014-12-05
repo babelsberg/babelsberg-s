@@ -1,13 +1,12 @@
 solving
 solveFromCandidates: aMatrix
-	inputMatrix := SudokuGrid newFrom: aMatrix.
-	candidates := SudokuGrid newFrom: aMatrix.
 	solvedCells := false.
 	self
-		initializeHighlightCandidates;
+		inputMatrix: aMatrix;
+	"	initializeHighlightCandidates;"
 		checkStrategyForRows;
 		checkStrategyForColumns;
-		checkStrategyForBoxes;
-		findRemoveCandidates;
-		findHighlightCandidates.
+		checkStrategyForBoxes.
+	"	findRemoveCandidates;"
+"		findHighlightCandidates."
 	^ solvedCells

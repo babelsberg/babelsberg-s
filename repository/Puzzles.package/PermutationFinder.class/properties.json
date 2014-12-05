@@ -1,0 +1,16 @@
+{
+	"category" : "Puzzles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"perms",
+		"nn",
+		"solver" ],
+	"name" : "PermutationFinder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

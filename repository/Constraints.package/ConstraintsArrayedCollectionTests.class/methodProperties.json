@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "mg 11/15/2014 14:57",
 		"testAllDifferent" : "mg 6/13/2014 11:42",
 		"testAllDifferentObjectIdentity" : "mg 7/22/2014 13:44",
 		"testAllDifferentOfPoints" : "mg 7/23/2014 11:22",
@@ -16,6 +17,7 @@
 		"testCountCassowary" : "mg 7/2/2014 15:26",
 		"testCountZ3" : "mg 7/2/2014 14:10",
 		"testExampleClassPointsWithAnySatisfy" : "mg 7/17/2014 12:46",
+		"testIncludesAllOf" : "mg 9/19/2014 15:36",
 		"testNoneSatisfyZ3" : "mg 6/13/2014 13:46",
 		"testObjectInArray" : "mg 7/2/2014 13:57",
 		"testObjectInArrayCassowary" : "mg 7/2/2014 13:58",

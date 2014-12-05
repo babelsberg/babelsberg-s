@@ -1,0 +1,3 @@
+solving
+checkStrategyForRows
+	self subclassResponsibility.
