@@ -28,7 +28,7 @@ baseline: spec
 		spec package: 'ConstraintsDebugger' with: [
 			spec requires: #('Constraints')].
 		spec package: 'Babelsberg-Tests' with: [
-			spec required: 'Constraints'].
+			spec requires: 'Constraints'].
 		
 		spec
 			group: 'default' with: #('core');
