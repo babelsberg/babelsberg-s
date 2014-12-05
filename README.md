@@ -10,6 +10,16 @@ Work in progress.
 
 ##How to Install
 
+####Download prebuilt image
+
+Prebuilt images are published when the tests are green. You probably
+want the
+[Image](http://www.lively-kernel.org/babelsberg/BabelsbergS/BabelsbergS.image),
+[Changes](http://www.lively-kernel.org/babelsberg/BabelsbergS/BabelsbergS.changes),
+and [Sources](http://www.lively-kernel.org/babelsberg/BabelsbergS/SqueakV41.sources).
+
+####Install into your own image
+
 1. Get [Squeak 4.5 or later](http://www.squeak.org) with a recent [CogVM](http://www.mirandabanda.org/files/Cog/VM/) for your operating system. Make sure that the SqueakSSL plugin is included (should be true for all official distributions.)
 2. Load Babelsberg/S into your image
 
