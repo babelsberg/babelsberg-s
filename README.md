@@ -16,7 +16,7 @@ Prebuilt images are published when the tests are green. You probably
 want the
 [Image](http://www.lively-kernel.org/babelsberg/BabelsbergS/BabelsbergS.image),
 [Changes](http://www.lively-kernel.org/babelsberg/BabelsbergS/BabelsbergS.changes),
-and [Sources](http://www.lively-kernel.org/babelsberg/BabelsbergS/SqueakV41.sources).
+and [Sources](http://www.lively-kernel.org/babelsberg/BabelsbergS/SqueakV41.sources). You can also [try it online](https://bertfreudenberg.github.io/SqueakJS/run#url=http://www.lively-kernel.org/babelsberg/BabelsbergS/&files=[BabelsbergS.image,BabelsbergS.changes,SqueakV41.sources]) through [SqueakJS](http://github.com/bertfreudenberg/SqueakJS) (but note that this runs very slowly, and does not support Z3).
 
 ####Install into your own image
 
