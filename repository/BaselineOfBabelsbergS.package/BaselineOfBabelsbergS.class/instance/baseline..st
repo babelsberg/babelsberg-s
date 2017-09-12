@@ -1,13 +1,12 @@
-as yet unclassified
+api
 baseline: spec
 	<baseline>
 	
 	spec for: #common do: [
-		spec project: 'Widgets' with: [
+		spec baseline: 'Widgets' with: [
 			spec
-				className: 'BaselineOfWidgets';
-				repository: 'github://marceltaeumel/widgets:master/repository';
-				loads: #(full)].
+				repository: 'github://hpi-swa/widgets:master/repository';
+				loads: #('full')].
 		
 		spec project: 'ContextS2' with: [
 			spec
@@ -28,7 +27,7 @@ baseline: spec
 		spec package: 'ConstraintsDebugger' with: [
 			spec requires: #('Constraints')].
 		spec package: 'Babelsberg-Tests' with: [
-			spec requires: 'Constraints'].
+			spec requires: #('Constraints')].
 		
 		spec
 			group: 'default' with: #('core');
