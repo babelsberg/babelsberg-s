@@ -8,9 +8,9 @@ See also [Babelsberg/R](https://github.com/babelsberg/babelsberg-r) and [Babelsb
 
 Work in progress.
 
-##How to Install
+## How to Install
 
-####Download prebuilt image
+#### Download prebuilt image
 
 Prebuilt images are published when the tests are green. You probably
 want the
@@ -18,7 +18,7 @@ want the
 [Changes](http://www.lively-kernel.org/babelsberg/BabelsbergS/BabelsbergS.changes),
 and [Sources](http://www.lively-kernel.org/babelsberg/BabelsbergS/SqueakV41.sources). You can also [try it online](https://bertfreudenberg.github.io/SqueakJS/run#url=http://www.lively-kernel.org/babelsberg/BabelsbergS/&files=[BabelsbergS.image,BabelsbergS.changes,SqueakV41.sources]) through [SqueakJS](http://github.com/bertfreudenberg/SqueakJS) (but note that this runs very slowly, and does not support Z3).
 
-####Install into your own image
+#### Install into your own image
 
 1. Get [Squeak 4.5 or later](http://www.squeak.org) with a recent [CogVM](http://www.mirandabanda.org/files/Cog/VM/) for your operating system. Make sure that the SqueakSSL plugin is included (should be true for all official distributions.)
 2. Load Babelsberg/S into your image
@@ -46,7 +46,7 @@ If you want to commit to Github directly from Squeak, you can try [Metacello-Git
 ```
 This will allow you to add a `Git (remote)` repository to the packages in this project. It will use your system's git command. You can configure the path in the GitHub section of the Squeak Preferences tool. Note that Metacello-Git does not handle authentication - it's easiest if you use an SSH url and setup your system to automatically supply the correct public key (usually just works on Unix, you can use e.g. Pageant on Windows.)
 
-##How to develop
+## How to develop
 
 If you want to forward development, there are a number of areas that
 need work. In general, the system needs to be refactored so other
