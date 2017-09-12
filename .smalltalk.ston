@@ -2,6 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'BabelsbergS',
+      #directory : 'repository',
       #onWarningLog : true
     }
   ]
