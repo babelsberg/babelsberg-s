@@ -3,7 +3,8 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'BabelsbergS',
       #directory : 'repository',
-      #onWarningLog : true
+      #onWarningLog : true,
+      #load : [ 'core', 'dev' ],
     }
   ]
 }
