@@ -1,0 +1,4 @@
+accessing
+asConstraintLinearExpression
+
+	^ self

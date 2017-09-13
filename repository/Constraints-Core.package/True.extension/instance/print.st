@@ -1,0 +1,4 @@
+*Constraints-Core
+print
+
+	^ 'true'

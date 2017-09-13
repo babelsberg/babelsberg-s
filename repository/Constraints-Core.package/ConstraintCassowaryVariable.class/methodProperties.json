@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"*" : "mg 4/24/2014 10:55",
+		"+" : "mg 4/23/2014 11:19",
+		"-" : "mg 4/23/2014 14:07",
+		"/" : "mg 4/24/2014 12:44",
+		"<=" : "mg 5/5/2014 15:40",
+		"=" : "mg 4/23/2014 13:53",
+		">=" : "mg 5/5/2014 15:45",
+		"asConstantConstraintVariable" : "mg 4/24/2014 10:56",
+		"asConstraintLinearExpression" : "mg 4/23/2014 11:00",
+		"between:and:" : "mg 6/17/2014 15:51",
+		"initialize" : "mg 4/17/2014 13:37",
+		"isCassowaryVariable" : "mg 4/16/2014 14:42",
+		"suggestValue:" : "mg 5/13/2014 12:34" } }

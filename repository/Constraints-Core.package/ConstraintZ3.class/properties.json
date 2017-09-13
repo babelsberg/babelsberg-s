@@ -1,0 +1,14 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expressions" ],
+	"name" : "ConstraintZ3",
+	"pools" : [
+		 ],
+	"super" : "Constraint",
+	"type" : "normal" }

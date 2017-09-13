@@ -1,0 +1,14 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ConstraintArray",
+	"pools" : [
+		 ],
+	"super" : "Array",
+	"type" : "variable" }

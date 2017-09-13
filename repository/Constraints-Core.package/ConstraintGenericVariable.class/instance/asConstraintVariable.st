@@ -1,0 +1,4 @@
+accessing
+asConstraintVariable
+
+	^ self

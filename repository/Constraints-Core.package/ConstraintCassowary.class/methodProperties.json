@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addExpression:" : "mg 5/14/2014 13:22",
+		"addExternalConstraint:" : "mg 4/30/2014 15:45",
+		"disable" : "mg 5/5/2014 11:33",
+		"enable" : "mg 5/5/2014 11:06",
+		"externalConstraints" : "mg 4/30/2014 15:44",
+		"initialize" : "mg 5/13/2014 12:39",
+		"priority:" : "mg 5/13/2014 13:00" } }

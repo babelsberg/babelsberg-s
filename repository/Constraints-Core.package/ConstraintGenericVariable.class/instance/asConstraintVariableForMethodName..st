@@ -1,0 +1,4 @@
+accessing
+asConstraintVariableForMethodName: aName
+
+	^ self

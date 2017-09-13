@@ -1,0 +1,15 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mg 4/16/2014 13:07",
+	"instvars" : [
+		"externalVariable",
+		"solver" ],
+	"name" : "ConstraintVariable",
+	"pools" : [
+		 ],
+	"super" : "ConstraintGenericVariable",
+	"type" : "normal" }

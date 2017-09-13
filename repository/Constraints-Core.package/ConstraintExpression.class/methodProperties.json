@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"&" : "mg 6/6/2014 10:52",
+		"addExpressionToConstraint:" : "mg 5/14/2014 13:53",
+		"isConstraintCollectionExpression" : "mg 5/27/2014 15:03",
+		"isConstraintExpression" : "mg 5/14/2014 12:54",
+		"mustBeBoolean" : "mg 6/10/2014 18:11",
+		"print" : "mg 5/28/2014 11:46",
+		"variables" : "mg 6/6/2014 12:08" } }

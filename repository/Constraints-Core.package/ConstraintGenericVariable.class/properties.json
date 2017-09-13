@@ -1,0 +1,15 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mg 4/16/2014 13:02",
+	"instvars" : [
+		"originalValue",
+		"stayConstraint" ],
+	"name" : "ConstraintGenericVariable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

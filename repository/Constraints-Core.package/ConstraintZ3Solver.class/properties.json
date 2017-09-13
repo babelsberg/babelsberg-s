@@ -1,0 +1,17 @@
+{
+	"category" : "Constraints-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variables",
+		"variableType",
+		"binaryPath",
+		"version" ],
+	"name" : "ConstraintZ3Solver",
+	"pools" : [
+		 ],
+	"super" : "ConstraintSolver",
+	"type" : "normal" }
