@@ -1,10 +1,10 @@
 Accessing
-testSelectors
+allTestSelectors
 	"There's an old VM that may cause havoc in the PNG decoder and
 	we can do nothing about it. So do not bother testing those at all."
 
 	| selectors |
-	selectors := super testSelectors.
+	selectors := super allTestSelectors.
 	^ (Smalltalk vm isHeadless and: [Smalltalk vm platformSourceVersion substrings second =  'r3427'])
 		ifFalse: [selectors]
 		ifTrue: [selectors copyWithoutAll: #(
