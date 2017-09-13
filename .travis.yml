@@ -24,7 +24,7 @@ install:
   - unzip /tmp/z3.zip
   - ln -s z3-* z3 || true
 
-script: $SMALLTALK_CI_HOME/run.sh -d -v
+script: $SMALLTALK_CI_HOME/run.sh -v
 
 # after_success:
 #   -     echo Uploading $BUILDER_CI_HOME/images/*.image
