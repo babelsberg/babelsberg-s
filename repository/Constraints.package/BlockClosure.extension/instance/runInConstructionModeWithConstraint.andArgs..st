@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 runInConstructionModeWithConstraint: aConstraint andArgs: anArray
 	"This method constructs constraints for all solvable constraints inside this blockClosure. It uses the given constraint object."
 	| newProcess |

@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 jump: distance if: condition
 	<layer: #ccm>
 	| constraintExpr |

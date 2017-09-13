@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 isStrong
 
 	^ self == StrongStrength

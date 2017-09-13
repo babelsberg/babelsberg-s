@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 alwaysSolveWithDebug: aConstraintSolver
 	"This is used in the constraint debugger to step into the constraint block"
 	| constraint result |

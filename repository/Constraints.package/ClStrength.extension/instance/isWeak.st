@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 isWeak
 
 	^ self == WeakStrength

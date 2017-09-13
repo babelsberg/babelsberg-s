@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 makeConstraintSubclass
 
 	self isConstraintSubclass ifTrue: [^self].

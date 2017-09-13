@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 pushReceiverVariable: offset 
 	"Simulate the action of bytecode that pushes the contents of the receiver's 
 	instance variable whose index is the argument, offset, on the top of the 

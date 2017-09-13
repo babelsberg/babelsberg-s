@@ -1,4 +1,4 @@
-*Constraints-testing
+*Constraints-Core-testing
 allDifferent
 
 	self withIndexDo: [:each :idx |

@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 groupBy: keyBlock
 	"This method takes a block that defines the partitionKey for each element in the collection. It returns a collection of the groups."
 	| result |

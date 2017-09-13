@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 send: selector super: superFlag numArgs: numArgs
 	"Simulate the action of bytecodes that send a message with selector, 
 	selector. The argument, superFlag, tells whether the receiver of the 

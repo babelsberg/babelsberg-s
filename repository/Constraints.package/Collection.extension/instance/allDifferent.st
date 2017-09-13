@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 allDifferent
 	1 to: self size do: [:idx |
 		idx + 1 to: self size do: [:nextIdx |

@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 runProcessInConstraintsLibraryReceiver: aReceiver selector: aSelector arguments: anArray superFlag: superFlag
 	"This method checks, whether the next method belongs to the constraints library. If so, run it without the #ccm layer until error or return to the outer context. Afterwards, activate the #ccm layer again."
 	<layer: #ccm>

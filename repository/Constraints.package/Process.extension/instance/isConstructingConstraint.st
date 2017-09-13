@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 isConstructingConstraint
 
 	^ (self environmentAt: #constraintObject ifAbsent: []) notNil or: [

@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 count: aBlock equals: aNumber
 	"This method should return a ConstraintCountExpression."
 	| countExpr constraint |

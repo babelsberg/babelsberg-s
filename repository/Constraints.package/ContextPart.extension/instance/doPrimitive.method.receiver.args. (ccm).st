@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 doPrimitive: primitiveIndex method: meth receiver: receiver args: arguments 
 	"Simulate a primitive method whose index is primitiveIndex.  The
 	 simulated receiver and arguments are given as arguments to this message.

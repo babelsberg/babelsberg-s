@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 newTerminatingProcessArgs: anArray
 	"Answer a Process running the code in the receiver. The process is not 
 	scheduled."

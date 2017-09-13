@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 mayReplaceCollectionVariable: aCollection withName: aName ofReceiver: aReceiver
 	"If aCollection is an Array or an OrderedCollection, replace the array with a ConstraintArray, otherwise return aCollection."
 	<layer: #ccm>

@@ -1,4 +1,4 @@
-*Constraints
+*Constraints-Core
 valueOrConstraintVariableFor: method receiver: receiver value: value
 	<layer: #ccm>
 	| setter cv newClass |
