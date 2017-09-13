@@ -25,7 +25,6 @@ initializePanel
 	panel wrapDirection: (#none).
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
-	panel balloonText: (nil).
 	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	panel color: (Color white).
 	panel borderWidth: (0).
@@ -53,7 +52,6 @@ initializePanel
 	unnamedMorph1 wrapDirection: (#none).
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph1 balloonText: (nil).
 	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
@@ -80,7 +78,6 @@ initializePanel
 	unnamedMorph2 wrapDirection: (#none).
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph2 balloonText: (nil).
 	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	unnamedMorph1 addChild: unnamedMorph2.
 	topSum1 := SudokuGivenNumberCell new.
@@ -104,7 +101,6 @@ initializePanel
 	topSum1 wrapDirection: (#none).
 	topSum1 frameFractions: (0@0 corner: 1@1).
 	topSum1 frameOffsets: (0@0 corner: 0@0).
-	topSum1 balloonText: (nil).
 	topSum1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum1 setProperty: #objectName toValue: 'topSum1'.
 	unnamedMorph1 addChild: topSum1.
@@ -129,7 +125,6 @@ initializePanel
 	topSum2 wrapDirection: (#none).
 	topSum2 frameFractions: (0@0 corner: 1@1).
 	topSum2 frameOffsets: (0@0 corner: 0@0).
-	topSum2 balloonText: (nil).
 	topSum2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum2 setProperty: #objectName toValue: 'topSum2'.
 	unnamedMorph1 addChild: topSum2.
@@ -154,7 +149,6 @@ initializePanel
 	topSum3 wrapDirection: (#none).
 	topSum3 frameFractions: (0@0 corner: 1@1).
 	topSum3 frameOffsets: (0@0 corner: 0@0).
-	topSum3 balloonText: (nil).
 	topSum3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum3 setProperty: #objectName toValue: 'topSum3'.
 	unnamedMorph1 addChild: topSum3.
@@ -179,7 +173,6 @@ initializePanel
 	topSum4 wrapDirection: (#none).
 	topSum4 frameFractions: (0@0 corner: 1@1).
 	topSum4 frameOffsets: (0@0 corner: 0@0).
-	topSum4 balloonText: (nil).
 	topSum4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum4 setProperty: #objectName toValue: 'topSum4'.
 	unnamedMorph1 addChild: topSum4.
@@ -204,7 +197,6 @@ initializePanel
 	topSum5 wrapDirection: (#none).
 	topSum5 frameFractions: (0@0 corner: 1@1).
 	topSum5 frameOffsets: (0@0 corner: 0@0).
-	topSum5 balloonText: (nil).
 	topSum5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum5 setProperty: #objectName toValue: 'topSum5'.
 	unnamedMorph1 addChild: topSum5.
@@ -229,7 +221,6 @@ initializePanel
 	topSum6 wrapDirection: (#none).
 	topSum6 frameFractions: (0@0 corner: 1@1).
 	topSum6 frameOffsets: (0@0 corner: 0@0).
-	topSum6 balloonText: (nil).
 	topSum6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum6 setProperty: #objectName toValue: 'topSum6'.
 	unnamedMorph1 addChild: topSum6.
@@ -254,7 +245,6 @@ initializePanel
 	topSum7 wrapDirection: (#none).
 	topSum7 frameFractions: (0@0 corner: 1@1).
 	topSum7 frameOffsets: (0@0 corner: 0@0).
-	topSum7 balloonText: (nil).
 	topSum7 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum7 setProperty: #objectName toValue: 'topSum7'.
 	unnamedMorph1 addChild: topSum7.
@@ -279,7 +269,6 @@ initializePanel
 	topSum8 wrapDirection: (#none).
 	topSum8 frameFractions: (0@0 corner: 1@1).
 	topSum8 frameOffsets: (0@0 corner: 0@0).
-	topSum8 balloonText: (nil).
 	topSum8 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum8 setProperty: #objectName toValue: 'topSum8'.
 	unnamedMorph1 addChild: topSum8.
@@ -304,7 +293,6 @@ initializePanel
 	topSum9 wrapDirection: (#none).
 	topSum9 frameFractions: (0@0 corner: 1@1).
 	topSum9 frameOffsets: (0@0 corner: 0@0).
-	topSum9 balloonText: (nil).
 	topSum9 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	topSum9 setProperty: #objectName toValue: 'topSum9'.
 	unnamedMorph1 addChild: topSum9.
@@ -329,7 +317,6 @@ initializePanel
 	unnamedMorph3 wrapDirection: (#none).
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph3 balloonText: (nil).
 	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	unnamedMorph1 addChild: unnamedMorph3.
 	panel addChild: unnamedMorph1.
@@ -354,7 +341,6 @@ initializePanel
 	unnamedMorph4 wrapDirection: (#none).
 	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph4 balloonText: (nil).
 	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph4 color: (Color transparent).
 	unnamedMorph4 borderWidth: (0).
@@ -381,7 +367,6 @@ initializePanel
 	unnamedMorph5 wrapDirection: (#none).
 	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph5 balloonText: (nil).
 	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph5 color: (Color transparent).
 	unnamedMorph5 borderWidth: (0).
@@ -408,7 +393,6 @@ initializePanel
 	leftSum1 wrapDirection: (#none).
 	leftSum1 frameFractions: (0@0 corner: 1@1).
 	leftSum1 frameOffsets: (0@0 corner: 0@0).
-	leftSum1 balloonText: (nil).
 	leftSum1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum1 setProperty: #objectName toValue: 'leftSum1'.
 	unnamedMorph5 addChild: leftSum1.
@@ -433,7 +417,6 @@ initializePanel
 	leftSum2 wrapDirection: (#none).
 	leftSum2 frameFractions: (0@0 corner: 1@1).
 	leftSum2 frameOffsets: (0@0 corner: 0@0).
-	leftSum2 balloonText: (nil).
 	leftSum2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum2 setProperty: #objectName toValue: 'leftSum2'.
 	unnamedMorph5 addChild: leftSum2.
@@ -458,7 +441,6 @@ initializePanel
 	leftSum3 wrapDirection: (#none).
 	leftSum3 frameFractions: (0@0 corner: 1@1).
 	leftSum3 frameOffsets: (0@0 corner: 0@0).
-	leftSum3 balloonText: (nil).
 	leftSum3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum3 setProperty: #objectName toValue: 'leftSum3'.
 	unnamedMorph5 addChild: leftSum3.
@@ -483,7 +465,6 @@ initializePanel
 	leftSum4 wrapDirection: (#none).
 	leftSum4 frameFractions: (0@0 corner: 1@1).
 	leftSum4 frameOffsets: (0@0 corner: 0@0).
-	leftSum4 balloonText: (nil).
 	leftSum4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum4 setProperty: #objectName toValue: 'leftSum4'.
 	unnamedMorph5 addChild: leftSum4.
@@ -508,7 +489,6 @@ initializePanel
 	leftSum5 wrapDirection: (#none).
 	leftSum5 frameFractions: (0@0 corner: 1@1).
 	leftSum5 frameOffsets: (0@0 corner: 0@0).
-	leftSum5 balloonText: (nil).
 	leftSum5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum5 setProperty: #objectName toValue: 'leftSum5'.
 	unnamedMorph5 addChild: leftSum5.
@@ -533,7 +513,6 @@ initializePanel
 	leftSum6 wrapDirection: (#none).
 	leftSum6 frameFractions: (0@0 corner: 1@1).
 	leftSum6 frameOffsets: (0@0 corner: 0@0).
-	leftSum6 balloonText: (nil).
 	leftSum6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum6 setProperty: #objectName toValue: 'leftSum6'.
 	unnamedMorph5 addChild: leftSum6.
@@ -558,7 +537,6 @@ initializePanel
 	leftSum7 wrapDirection: (#none).
 	leftSum7 frameFractions: (0@0 corner: 1@1).
 	leftSum7 frameOffsets: (0@0 corner: 0@0).
-	leftSum7 balloonText: (nil).
 	leftSum7 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum7 setProperty: #objectName toValue: 'leftSum7'.
 	unnamedMorph5 addChild: leftSum7.
@@ -583,7 +561,6 @@ initializePanel
 	leftSum8 wrapDirection: (#none).
 	leftSum8 frameFractions: (0@0 corner: 1@1).
 	leftSum8 frameOffsets: (0@0 corner: 0@0).
-	leftSum8 balloonText: (nil).
 	leftSum8 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum8 setProperty: #objectName toValue: 'leftSum8'.
 	unnamedMorph5 addChild: leftSum8.
@@ -608,7 +585,6 @@ initializePanel
 	leftSum9 wrapDirection: (#none).
 	leftSum9 frameFractions: (0@0 corner: 1@1).
 	leftSum9 frameOffsets: (0@0 corner: 0@0).
-	leftSum9 balloonText: (nil).
 	leftSum9 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	leftSum9 setProperty: #objectName toValue: 'leftSum9'.
 	unnamedMorph5 addChild: leftSum9.
@@ -634,7 +610,6 @@ initializePanel
 	grid wrapDirection: (#none).
 	grid frameFractions: (0@0 corner: 1@1).
 	grid frameOffsets: (0@0 corner: 0@0).
-	grid balloonText: (nil).
 	grid balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	grid setProperty: #objectName toValue: 'grid'.
 	unnamedMorph4 addChild: grid.
@@ -659,7 +634,6 @@ initializePanel
 	unnamedMorph6 wrapDirection: (#none).
 	unnamedMorph6 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph6 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph6 balloonText: (nil).
 	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph6 color: (Color transparent).
 	unnamedMorph6 borderWidth: (0).
@@ -686,7 +660,6 @@ initializePanel
 	rightSum1 wrapDirection: (#none).
 	rightSum1 frameFractions: (0@0 corner: 1@1).
 	rightSum1 frameOffsets: (0@0 corner: 0@0).
-	rightSum1 balloonText: (nil).
 	rightSum1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum1 setProperty: #objectName toValue: 'rightSum1'.
 	unnamedMorph6 addChild: rightSum1.
@@ -711,7 +684,6 @@ initializePanel
 	rightSum2 wrapDirection: (#none).
 	rightSum2 frameFractions: (0@0 corner: 1@1).
 	rightSum2 frameOffsets: (0@0 corner: 0@0).
-	rightSum2 balloonText: (nil).
 	rightSum2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum2 setProperty: #objectName toValue: 'rightSum2'.
 	unnamedMorph6 addChild: rightSum2.
@@ -736,7 +708,6 @@ initializePanel
 	rightSum3 wrapDirection: (#none).
 	rightSum3 frameFractions: (0@0 corner: 1@1).
 	rightSum3 frameOffsets: (0@0 corner: 0@0).
-	rightSum3 balloonText: (nil).
 	rightSum3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum3 setProperty: #objectName toValue: 'rightSum3'.
 	unnamedMorph6 addChild: rightSum3.
@@ -761,7 +732,6 @@ initializePanel
 	rightSum4 wrapDirection: (#none).
 	rightSum4 frameFractions: (0@0 corner: 1@1).
 	rightSum4 frameOffsets: (0@0 corner: 0@0).
-	rightSum4 balloonText: (nil).
 	rightSum4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum4 setProperty: #objectName toValue: 'rightSum4'.
 	unnamedMorph6 addChild: rightSum4.
@@ -786,7 +756,6 @@ initializePanel
 	rightSum5 wrapDirection: (#none).
 	rightSum5 frameFractions: (0@0 corner: 1@1).
 	rightSum5 frameOffsets: (0@0 corner: 0@0).
-	rightSum5 balloonText: (nil).
 	rightSum5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum5 setProperty: #objectName toValue: 'rightSum5'.
 	unnamedMorph6 addChild: rightSum5.
@@ -811,7 +780,6 @@ initializePanel
 	rightSum6 wrapDirection: (#none).
 	rightSum6 frameFractions: (0@0 corner: 1@1).
 	rightSum6 frameOffsets: (0@0 corner: 0@0).
-	rightSum6 balloonText: (nil).
 	rightSum6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum6 setProperty: #objectName toValue: 'rightSum6'.
 	unnamedMorph6 addChild: rightSum6.
@@ -836,7 +804,6 @@ initializePanel
 	rightSum7 wrapDirection: (#none).
 	rightSum7 frameFractions: (0@0 corner: 1@1).
 	rightSum7 frameOffsets: (0@0 corner: 0@0).
-	rightSum7 balloonText: (nil).
 	rightSum7 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum7 setProperty: #objectName toValue: 'rightSum7'.
 	unnamedMorph6 addChild: rightSum7.
@@ -861,7 +828,6 @@ initializePanel
 	rightSum8 wrapDirection: (#none).
 	rightSum8 frameFractions: (0@0 corner: 1@1).
 	rightSum8 frameOffsets: (0@0 corner: 0@0).
-	rightSum8 balloonText: (nil).
 	rightSum8 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum8 setProperty: #objectName toValue: 'rightSum8'.
 	unnamedMorph6 addChild: rightSum8.
@@ -886,7 +852,6 @@ initializePanel
 	rightSum9 wrapDirection: (#none).
 	rightSum9 frameFractions: (0@0 corner: 1@1).
 	rightSum9 frameOffsets: (0@0 corner: 0@0).
-	rightSum9 balloonText: (nil).
 	rightSum9 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	rightSum9 setProperty: #objectName toValue: 'rightSum9'.
 	unnamedMorph6 addChild: rightSum9.
@@ -913,7 +878,6 @@ initializePanel
 	unnamedMorph7 wrapDirection: (#none).
 	unnamedMorph7 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph7 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph7 balloonText: (nil).
 	unnamedMorph7 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	unnamedMorph7 color: (Color transparent).
 	unnamedMorph7 borderWidth: (0).
@@ -940,7 +904,6 @@ initializePanel
 	unnamedMorph8 wrapDirection: (#none).
 	unnamedMorph8 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph8 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph8 balloonText: (nil).
 	unnamedMorph8 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph7 addChild: unnamedMorph8.
 	bottomSum1 := SudokuGivenNumberCell new.
@@ -964,7 +927,6 @@ initializePanel
 	bottomSum1 wrapDirection: (#none).
 	bottomSum1 frameFractions: (0@0 corner: 1@1).
 	bottomSum1 frameOffsets: (0@0 corner: 0@0).
-	bottomSum1 balloonText: (nil).
 	bottomSum1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum1 setProperty: #objectName toValue: 'bottomSum1'.
 	unnamedMorph7 addChild: bottomSum1.
@@ -989,7 +951,6 @@ initializePanel
 	bottomSum2 wrapDirection: (#none).
 	bottomSum2 frameFractions: (0@0 corner: 1@1).
 	bottomSum2 frameOffsets: (0@0 corner: 0@0).
-	bottomSum2 balloonText: (nil).
 	bottomSum2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum2 setProperty: #objectName toValue: 'bottomSum2'.
 	unnamedMorph7 addChild: bottomSum2.
@@ -1014,7 +975,6 @@ initializePanel
 	bottomSum3 wrapDirection: (#none).
 	bottomSum3 frameFractions: (0@0 corner: 1@1).
 	bottomSum3 frameOffsets: (0@0 corner: 0@0).
-	bottomSum3 balloonText: (nil).
 	bottomSum3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum3 setProperty: #objectName toValue: 'bottomSum3'.
 	unnamedMorph7 addChild: bottomSum3.
@@ -1039,7 +999,6 @@ initializePanel
 	bottomSum4 wrapDirection: (#none).
 	bottomSum4 frameFractions: (0@0 corner: 1@1).
 	bottomSum4 frameOffsets: (0@0 corner: 0@0).
-	bottomSum4 balloonText: (nil).
 	bottomSum4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum4 setProperty: #objectName toValue: 'bottomSum4'.
 	unnamedMorph7 addChild: bottomSum4.
@@ -1064,7 +1023,6 @@ initializePanel
 	bottomSum5 wrapDirection: (#none).
 	bottomSum5 frameFractions: (0@0 corner: 1@1).
 	bottomSum5 frameOffsets: (0@0 corner: 0@0).
-	bottomSum5 balloonText: (nil).
 	bottomSum5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum5 setProperty: #objectName toValue: 'bottomSum5'.
 	unnamedMorph7 addChild: bottomSum5.
@@ -1089,7 +1047,6 @@ initializePanel
 	bottomSum6 wrapDirection: (#none).
 	bottomSum6 frameFractions: (0@0 corner: 1@1).
 	bottomSum6 frameOffsets: (0@0 corner: 0@0).
-	bottomSum6 balloonText: (nil).
 	bottomSum6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum6 setProperty: #objectName toValue: 'bottomSum6'.
 	unnamedMorph7 addChild: bottomSum6.
@@ -1114,7 +1071,6 @@ initializePanel
 	bottomSum7 wrapDirection: (#none).
 	bottomSum7 frameFractions: (0@0 corner: 1@1).
 	bottomSum7 frameOffsets: (0@0 corner: 0@0).
-	bottomSum7 balloonText: (nil).
 	bottomSum7 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum7 setProperty: #objectName toValue: 'bottomSum7'.
 	unnamedMorph7 addChild: bottomSum7.
@@ -1139,7 +1095,6 @@ initializePanel
 	bottomSum8 wrapDirection: (#none).
 	bottomSum8 frameFractions: (0@0 corner: 1@1).
 	bottomSum8 frameOffsets: (0@0 corner: 0@0).
-	bottomSum8 balloonText: (nil).
 	bottomSum8 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum8 setProperty: #objectName toValue: 'bottomSum8'.
 	unnamedMorph7 addChild: bottomSum8.
@@ -1164,7 +1119,6 @@ initializePanel
 	bottomSum9 wrapDirection: (#none).
 	bottomSum9 frameFractions: (0@0 corner: 1@1).
 	bottomSum9 frameOffsets: (0@0 corner: 0@0).
-	bottomSum9 balloonText: (nil).
 	bottomSum9 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	bottomSum9 setProperty: #objectName toValue: 'bottomSum9'.
 	unnamedMorph7 addChild: bottomSum9.
@@ -1189,7 +1143,6 @@ initializePanel
 	unnamedMorph9 wrapDirection: (#none).
 	unnamedMorph9 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph9 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph9 balloonText: (nil).
 	unnamedMorph9 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	unnamedMorph7 addChild: unnamedMorph9.
 	panel addChild: unnamedMorph7.
