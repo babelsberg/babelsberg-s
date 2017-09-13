@@ -1,0 +1,3 @@
+running
+== other
+  ^ self = other

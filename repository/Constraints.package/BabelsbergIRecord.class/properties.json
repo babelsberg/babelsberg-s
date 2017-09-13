@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"variables",
-		"variableType",
-		"binaryPath",
-		"version" ],
-	"name" : "ConstraintZ3Solver",
+		 ],
+	"name" : "BabelsbergIRecord",
 	"pools" : [
 		 ],
-	"super" : "ConstraintSolver",
+	"super" : "Dictionary",
 	"type" : "normal" }
