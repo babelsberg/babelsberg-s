@@ -69,3 +69,9 @@ improve pass rates on these tests. As a guideline, Babelsberg/JS
 currently passes 39 of these tests using a combination of Z3 and
 DeltaBlue (the latter for identity constraints). Getting the number
 for Babelsberg/S up to mid-30 would be worthwhile.
+
+## License
+
+All files _except_ those in [Cassowary.package](repository/Cassowary.package) are under [the MIT License](LICENSE).  
+The files _in_ [Cassowary.package](repository/Cassowary.package) are under [the LGPL License](LICENSE.Cassowary)
+
