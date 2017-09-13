@@ -22,6 +22,7 @@ install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then curl -s -L -o /tmp/z3.zip https://github.com/Z3Prover/bin/raw/master/releases/z3-4.5.0-x64-osx-10.11.6.zip ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then wget -q -O /tmp/z3.zip https://github.com/Z3Prover/bin/raw/master/releases/z3-4.5.0-x64-ubuntu-14.04.zip ; fi
 
+script: $SMALLTALK_CI_HOME/run.sh -d
 
 # after_success:
 #   -     echo Uploading $BUILDER_CI_HOME/images/*.image
