@@ -4,5 +4,11 @@ SmalltalkCISpec {
       #baseline : 'BabelsbergS',
       #directory : 'repository'
     }
-  ]
+  ],
+  #testing : {
+    #exclude : {
+      #categories :   [ 'OSProcess-Tests', 'MethodWrappers-Tests'],
+      #classes : [ #MwBlockHandlerMethodWrapperTest ]
+    }
+  }
 }
