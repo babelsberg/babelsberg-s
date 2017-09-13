@@ -1,11 +1,13 @@
-testing
-expectedFailures
-	
+Accessing
+testSelectors
 	"There's an old VM that may cause havoc in the PNG decoder and
-	we can do nothing about it."
+	we can do nothing about it. So do not bother testing those at all."
+
+	| selectors |
+	selectors := super testSelectors.
 	^ (Smalltalk vm isHeadless and: [Smalltalk vm platformSourceVersion substrings second =  'r3427'])
-		ifFalse: [super expectedFailures]
-		ifTrue: [#(
+		ifFalse: [selectors]
+		ifTrue: [selectors copyWithoutAll: #(
 			#testNoneSatisfyNeighborCount
 			#testStarbattleCollectStars
 			#testStarbattleGridColumnCount
