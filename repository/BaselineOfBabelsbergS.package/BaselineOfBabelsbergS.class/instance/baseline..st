@@ -21,7 +21,7 @@ baseline: spec
 
 		spec
 			package: 'Cassowary';
-			package: 'Sudoku' with: [spec requires: #('Widgets' 'Constraints')];
+			package: 'Sudoku' with: [spec requires: #('Widgets' 'Constraints-Core')];
 			package: 'Puzzles' with: [spec requires: #('Sudoku')];
 			package: 'Constraints-Core' with: [
 				spec requires: #('MethodWrappers' 'OSProcess' 'ContextS2' 'Cassowary')];
