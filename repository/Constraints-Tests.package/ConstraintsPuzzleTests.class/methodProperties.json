@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "topa 9/13/2017 16:44",
 		"testNoneSatisfyNeighborCount" : "mg 8/14/2014 12:03",
 		"testPentominoPuzzle" : "mg 7/23/2014 11:35",
 		"testStarbattleCollectStars" : "mg 8/14/2014 12:03",
