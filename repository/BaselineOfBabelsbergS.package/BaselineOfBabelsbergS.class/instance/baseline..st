@@ -20,10 +20,10 @@ baseline: spec
 			spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'].
 
 		spec package: 'Cassowary'.
-		spec package: 'Sudoku' with: [spec requires: #('Widgets')].
+		spec package: 'Sudoku' with: [spec requires: #('Widgets' 'Constraints')].
 		spec package: 'Puzzles' with: [spec requires: #('Sudoku')].
 		spec package: 'Constraints' with: [
-			spec requires: #('MethodWrappers' 'OSProcess' 'ContextS2' 'Cassowary' 'Puzzles')].
+			spec requires: #('MethodWrappers' 'OSProcess' 'ContextS2' 'Cassowary')].
 		spec package: 'ConstraintsDebugger' with: [
 			spec requires: #('Constraints')].
 		spec package: 'Babelsberg-Tests' with: [
@@ -31,5 +31,5 @@ baseline: spec
 		
 		spec
 			group: 'default' with: #('core');
-			group: 'core' with: #('Constraints' 'ConstraintsDebugger');
+			group: 'core' with: #('Constraints' 'ConstraintsDebugger' 'Puzzles');
 			group: 'dev' with: #('Babelsberg-Tests')].
