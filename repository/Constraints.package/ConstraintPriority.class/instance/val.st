@@ -1,4 +1,0 @@
-accessing
-val
-
-	^ val

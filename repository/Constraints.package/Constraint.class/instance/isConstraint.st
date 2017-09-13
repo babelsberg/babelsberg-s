@@ -1,4 +1,0 @@
-comparing
-isConstraint
-
-	^ true

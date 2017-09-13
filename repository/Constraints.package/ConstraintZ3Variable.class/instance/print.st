@@ -1,4 +1,0 @@
-printing
-print
-
-	^ self varName

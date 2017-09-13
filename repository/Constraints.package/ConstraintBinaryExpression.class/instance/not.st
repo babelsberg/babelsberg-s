@@ -1,4 +1,0 @@
-comparing
-not
-
-	^ self = false

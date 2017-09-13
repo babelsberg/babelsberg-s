@@ -1,4 +1,0 @@
-accessing
-externalExpression
-
-	^ externalExpression

@@ -1,4 +1,0 @@
-*Constraints-Core
-asConstantConstraintVariable
-
-	^ self

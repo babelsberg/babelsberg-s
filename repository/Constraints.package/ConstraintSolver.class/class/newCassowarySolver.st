@@ -1,4 +1,0 @@
-instance creation
-newCassowarySolver
-
-	^ ConstraintCassowarySolver newCassowarySolver

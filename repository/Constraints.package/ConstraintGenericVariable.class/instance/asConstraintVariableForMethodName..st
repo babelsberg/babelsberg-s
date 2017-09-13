@@ -1,4 +1,0 @@
-accessing
-asConstraintVariableForMethodName: aName
-
-	^ self

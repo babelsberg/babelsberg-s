@@ -1,4 +1,0 @@
-accessing
-leftSide
-
-	^ leftSide

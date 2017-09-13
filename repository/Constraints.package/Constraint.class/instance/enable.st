@@ -1,4 +1,0 @@
-solving
-enable
-
-	self subclassResponsibility.
