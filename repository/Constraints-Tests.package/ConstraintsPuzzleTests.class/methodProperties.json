@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testNoneSatisfyNeighborCount" : "mg 8/14/2014 12:03",
+		"testPentominoPuzzle" : "mg 7/23/2014 11:35",
+		"testStarbattleCollectStars" : "mg 8/14/2014 12:03",
+		"testStarbattleGridColumnCount" : "mg 8/14/2014 12:03",
+		"testStarbattleGridNoTouch" : "mg 8/14/2014 12:03",
+		"testStarbattleGridNoTouch2" : "mg 8/14/2014 12:03",
+		"testStarbattleGridRegionCount" : "mg 8/14/2014 12:03",
+		"testStarbattleGridRowCount" : "mg 7/30/2014 12:05",
+		"testStarbattleNeighborCount" : "mg 8/14/2014 12:03",
+		"testStarbattleSelectStar" : "mg 8/14/2014 12:03",
+		"testStarbattleSelectStar2" : "mg 7/30/2014 12:05" } }

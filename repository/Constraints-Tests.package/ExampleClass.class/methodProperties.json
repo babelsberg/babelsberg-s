@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "tfel 5/8/2014 16:45",
+		"a" : "mg 5/5/2014 14:42",
+		"a:" : "mg 5/5/2014 14:42",
+		"arrayCollection" : "mg 6/13/2014 11:14",
+		"arrayCollection:" : "mg 6/13/2014 11:14",
+		"b" : "mg 5/5/2014 14:42",
+		"b:" : "mg 5/5/2014 14:42",
+		"collection" : "mg 6/4/2014 14:38",
+		"collection:" : "mg 6/4/2014 14:38",
+		"initialize" : "mg 6/13/2014 13:40",
+		"matrixCollection" : "mg 6/13/2014 13:40",
+		"matrixCollection:" : "mg 6/13/2014 13:40",
+		"methodWithSuperCall" : "mg 8/5/2014 14:09" } }

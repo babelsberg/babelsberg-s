@@ -1,0 +1,14 @@
+{
+	"category" : "Constraints-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ConstraintVariableTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
