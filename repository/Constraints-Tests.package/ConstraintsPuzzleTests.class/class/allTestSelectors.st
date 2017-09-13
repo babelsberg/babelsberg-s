@@ -5,7 +5,7 @@ allTestSelectors
 
 	| selectors |
 	selectors := super allTestSelectors.
-	^ (Smalltalk vm isHeadless and: [Smalltalk vm platformSourceVersion substrings second =  'r3427'])
+	^ Smalltalk vm platformSourceVersion substrings second =  'r3427'
 		ifFalse: [selectors]
 		ifTrue: [selectors copyWithoutAll: #(
 			#testNoneSatisfyNeighborCount
