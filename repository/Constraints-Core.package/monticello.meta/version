@@ -1,1 +1,1 @@
-(name 'Constraints-Core-topa.1' message 'Factor out core.' id '6f48316d-96e6-485d-8667-52e40f26b1e7' date '13 September 2017' time '3:37:08.084 pm' author 'topa' ancestors () stepChildren ())
+(name 'Constraints-Core-topa.2' message 'fix Polymorphy issue' id '08603702-acad-4083-b0f9-af824823473a' date '14 September 2017' time '4:16:09.883659 pm' author 'topa' ancestors ((name 'Constraints-Core-topa.1' message 'Factor out core.' id '6f48316d-96e6-485d-8667-52e40f26b1e7' date '13 September 2017' time '3:37:08.084 pm' author 'topa' ancestors () stepChildren ())) stepChildren ())

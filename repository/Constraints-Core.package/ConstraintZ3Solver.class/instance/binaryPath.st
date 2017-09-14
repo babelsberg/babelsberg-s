@@ -17,9 +17,9 @@ binaryPath
 				z3Directories := startDir directoryNames select: [:dir | dir startsWith: 'z3'].
 				z3Directories do: [:z3Dir |
 					((startDir / z3Dir / 'bin') fileExists: 'z3')
-						ifTrue: [binaryPath := (startDir / z3Dir / 'bin' / 'z3') pathName].
+						ifTrue: [binaryPath := (startDir / z3Dir / 'bin' / 'z3') fullName].
 					((startDir / z3Dir / 'bin') fileExists: 'z3', exeSuffix)
-						ifTrue: [binaryPath := (startDir / z3Dir / 'bin' / ('z3', exeSuffix)) pathName]].
+						ifTrue: [binaryPath := (startDir / z3Dir / 'bin' / ('z3', exeSuffix)) fullName]].
 				(startDir fileExists: binaryPath)
 					ifFalse: [self error: 'Cannot find Z3 binary, please add binary path to ', self class name,
 												'>>binaryPath method or put a z3 binary download in a subfolder of the default folder.']].
