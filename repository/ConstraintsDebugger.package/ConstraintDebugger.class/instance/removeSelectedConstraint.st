@@ -1,7 +1,7 @@
 constraints-access
 removeSelectedConstraint
 	| co |
-	co := (Processor activeProcess environmentAt: #constraintObject).
+	co :=  self currentConstraint.
 	self flag: #XXX.
 	(co respondsTo: #externalConstraints)
 		ifTrue: [co externalConstraints removeAt: self constraintIndex]

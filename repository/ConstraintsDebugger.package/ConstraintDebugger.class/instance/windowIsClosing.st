@@ -1,5 +1,5 @@
 initialize
 windowIsClosing
 
-	Processor activeProcess environmentRemoveKey: #constraintObject ifAbsent: [].
+	 self removeCurrentConstraint.
 	super windowIsClosing.

@@ -1,7 +1,7 @@
 constraints-access
 exploreSelectedConstraint
 	| co |
-	co := (Processor activeProcess environmentAt: #constraintObject).
+	co :=  self currentConstraint.
 	self flag: #XXX.
 	((co respondsTo: #externalConstraints)
 		ifTrue: [co externalConstraints at: self constraintIndex]
