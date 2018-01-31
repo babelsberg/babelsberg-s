@@ -4,7 +4,7 @@ testSimpleSudokuColumnWithChange
 	| sudoku solver |
 	sudoku := SudokuGrid buildFromString: SudokuGrid defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
-	solver variableType: 'Int'.
+	solver variableType: #'Int'.
 
 	self shouldnt: [[(sudoku atColumn: 1) allDifferent] alwaysSolveWith: solver] raise: Error.
 	self should: [(sudoku atColumn: 1) asSet size = 9].

@@ -7,4 +7,4 @@ setUp
 					priority: ConstraintPriority required;
 					solver: ConstraintSolver cassowarySolver;
 					yourself.
-	Processor activeProcess environmentAt: #constraintObject put: constraint.
+	self currentConstraint: constraint.

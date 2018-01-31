@@ -4,7 +4,7 @@ testOutsideSumSudoku
 	| sudoku solver |
 	sudoku := SudokuOutsideSum buildFromString: SudokuOutsideSum defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
-	solver variableType: 'Int'.
+	solver variableType: #'Int'.
 
 	self shouldnt: [sudoku createSumConstraints] raise: Error.
 

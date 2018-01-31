@@ -4,9 +4,9 @@
 	"instance" : {
 		"expectedFailures" : "mg 11/15/2014 14:57",
 		"testAllDifferent" : "mg 6/13/2014 11:42",
-		"testAllDifferentObjectIdentity" : "mg 7/22/2014 13:44",
-		"testAllDifferentOfPoints" : "mg 7/23/2014 11:22",
-		"testAllDifferentOfUniquePointHashes" : "mg 7/23/2014 11:20",
+		"testAllDifferentObjectIdentity" : "topa 11/10/2017 16:06",
+		"testAllDifferentOfPoints" : "topa 11/10/2017 16:06",
+		"testAllDifferentOfUniquePointHashes" : "topa 11/10/2017 16:06",
 		"testAllSatisfyCassowary" : "mg 6/13/2014 11:43",
 		"testAllSatisfyWithAnd" : "mg 6/13/2014 13:04",
 		"testAnySatisfyCassowary" : "mg 6/13/2014 11:43",
@@ -17,7 +17,7 @@
 		"testCountCassowary" : "mg 7/2/2014 15:26",
 		"testCountZ3" : "mg 7/2/2014 14:10",
 		"testExampleClassPointsWithAnySatisfy" : "mg 7/17/2014 12:46",
-		"testIncludesAllOf" : "mg 9/19/2014 15:36",
+		"testIncludesAllOf" : "topa 11/10/2017 16:06",
 		"testNoneSatisfyZ3" : "mg 6/13/2014 13:46",
 		"testObjectInArray" : "mg 7/2/2014 13:57",
 		"testObjectInArrayCassowary" : "mg 7/2/2014 13:58",
@@ -26,4 +26,4 @@
 		"testSudokuRule" : "mg 6/13/2014 11:30",
 		"testSum" : "mg 6/23/2014 15:42",
 		"testVariableType" : "mg 6/13/2014 13:06",
-		"testVariableTypeOnSolver" : "mg 6/13/2014 13:06" } }
+		"testVariableTypeOnSolver" : "topa 11/10/2017 16:07" } }

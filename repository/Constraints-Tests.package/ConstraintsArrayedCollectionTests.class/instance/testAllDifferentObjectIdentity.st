@@ -8,7 +8,7 @@ testAllDifferentObjectIdentity
 	ex arrayCollection at: 1 put: point.
 	ex arrayCollection at: 2 put: point.
 	solver := ConstraintSolver newZ3Solver.
-	solver variableType: 'Int'.
+	solver variableType: #'Int'.
 
 	self should: [[(ex arrayCollection collect: [:pt | pt y - 1 * 5 + pt x - 1]) allDifferent] alwaysSolveWith: solver] raise: ConstraintUnsatisfiableError.
 	pointHashes := (ex arrayCollection collect: [:pt | pt y - 1 * 5 + pt x - 1]).

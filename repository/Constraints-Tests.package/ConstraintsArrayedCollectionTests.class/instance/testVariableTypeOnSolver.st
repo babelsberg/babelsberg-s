@@ -10,11 +10,11 @@ testVariableTypeOnSolver
 	self should: [ex arrayCollection asSet size = 3].
 	self should: [ex arrayCollection allSatisfy: [:each | each isFloat]].
 
-	solver variableType: 'Int'.
+	solver variableType: #'Int'.
 	self should: [ex arrayCollection asSet size = 3].
 	self should: [ex arrayCollection allSatisfy: [:each | each isInteger]].
 
-	solver variableType: 'Real'.
+	solver variableType: #'Real'.
 	self should: [ex arrayCollection asSet size = 3].
 	self should: [ex arrayCollection allSatisfy: [:each | each isFloat]].
 

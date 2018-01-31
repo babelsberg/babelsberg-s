@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "mg 7/28/2014 15:52",
+		"setUp" : "topa 9/15/2017 14:47",
+		"tearDown" : "topa 9/15/2017 14:48",
 		"testAddition" : "mg 7/28/2014 15:53",
 		"testDivision" : "mg 7/28/2014 15:53",
 		"testEqualityExpressionsWithAddition" : "mg 7/28/2014 15:53",

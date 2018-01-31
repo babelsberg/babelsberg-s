@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testAllDifferent" : "mg 6/13/2014 11:13",
-		"testAllDifferentOfPoints" : "mg 7/22/2014 13:41",
+		"testAllDifferentOfPoints" : "topa 11/10/2017 16:07",
 		"testAllSatisfyCassowary" : "mg 6/13/2014 11:16",
 		"testAllSatisfyObjects" : "mg 6/13/2014 11:16",
 		"testAllSatisfyWithAnd" : "mg 6/13/2014 11:21",
@@ -23,4 +23,4 @@
 		"testSudokuRule2" : "mg 6/13/2014 11:29",
 		"testSum" : "mg 6/23/2014 15:42",
 		"testVariableType" : "mg 6/13/2014 11:30",
-		"testVariableTypeOnSolver" : "mg 6/13/2014 11:30" } }
+		"testVariableTypeOnSolver" : "topa 11/10/2017 16:07" } }

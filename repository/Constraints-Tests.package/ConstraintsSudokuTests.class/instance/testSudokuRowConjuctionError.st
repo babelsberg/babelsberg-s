@@ -4,7 +4,7 @@ testSudokuRowConjuctionError
 	| sudoku solver |
 	sudoku := SudokuGrid buildFromString: SudokuGrid defaultInputFile.
 	solver := ConstraintSolver newZ3Solver.
-	solver variableType: 'Int'.
+	solver variableType: #'Int'.
 
 	self shouldnt: [[((sudoku atRow: 1) allSatisfy: [:each | each >= 1 & (each <= 9)]) &
 					(sudoku atRow: 1) allDifferent] alwaysSolveWith: solver] raise: Error.

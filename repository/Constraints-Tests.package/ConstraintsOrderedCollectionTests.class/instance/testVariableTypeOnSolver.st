@@ -10,7 +10,7 @@ testVariableTypeOnSolver
 	self should: [ex collection asSet size = 3].
 	self should: [ex collection allSatisfy: [:each | each isFloat]].
 
-	solver variableType: 'Int'.
+	solver variableType: #'Int'.
 	self should: [ex collection asSet size = 3].
 	self should: [ex collection allSatisfy: [:each | each isInteger]].
 
@@ -18,7 +18,7 @@ testVariableTypeOnSolver
 	self should: [ex a = 3].
 	self should: [ex a isInteger].
 
-	solver variableType: 'Real'.
+	solver variableType: #'Real'.
 	self should: [ex collection asSet size = 3].
 	self should: [ex collection allSatisfy: [:each | each isFloat]].
 
