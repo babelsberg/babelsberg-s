@@ -13,22 +13,22 @@ jump: distance if: condition
 				condition 
 					ifFalse: ["ifTrue:"
 						bytecode = 121 ifTrue: ["returnTrue --> connect all expressions with or, if possible (anySatisfy:)"
-							constraintExpr addExpressionToConstraint: (Processor activeProcess environmentAt: #constraintObject).
+							constraintExpr addExpressionToConstraint: self currentConstraint.
 							self push: condition not "Currently, always the first expression will be true. So, the loop block will return."].
 						bytecode = 122 ifTrue: ["returnFalse --> negate constraintExpr (noneSatisfy:)
 							If the solver is Cassowray, throw an error, because Cassowary cannot negate arbitrary expressions."
 							| negatedExpr |
-							((Processor activeProcess environmentAt: #constraintObject) isKindOf: ConstraintCassowary)
+							self currentConstraint isConstraintCassowary
 								ifTrue: [self error: 'Cassowary cannot negate arbitrary constraints. 
 									Therefore, the current constraint cannot be solved.'].
 							negatedExpr := constraintExpr negated.
-							negatedExpr addExpressionToConstraint: (Processor activeProcess environmentAt: #constraintObject).
+							negatedExpr addExpressionToConstraint: self currentConstraint.
 							self push: condition "should not return --> Expressions inside the loop are connected with 'and'."]]
 					ifTrue: ["ifFalse:"
 						bytecode = 122 ifTrue: ["returnFalse --> connect all expressions with and, which is done implicitly"
-							constraintExpr addExpressionToConstraint: (Processor activeProcess environmentAt: #constraintObject).
+							constraintExpr addExpressionToConstraint: self currentConstraint.
 							self push: condition "should not return --> Expressions inside the loop are connected with 'and'."]]]
 			ifFalse: ["ifFalse: --> Should be allSatisfy:, but can also be something like notAllSatisfy:." 
-					constraintExpr addExpressionToConstraint: (Processor activeProcess environmentAt: #constraintObject).
+					constraintExpr addExpressionToConstraint:  self currentConstraint.
 					self push: condition not]].
 	^ self proceed: distance with: condition

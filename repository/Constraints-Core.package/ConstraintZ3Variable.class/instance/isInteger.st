@@ -1,5 +1,5 @@
 accessing
 isInteger
 
-	self type: 'Int'.
+	self type: #'Int'.
 	^ ConstraintExpression new

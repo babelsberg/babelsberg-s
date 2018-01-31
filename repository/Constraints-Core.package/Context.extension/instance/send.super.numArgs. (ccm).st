@@ -6,7 +6,7 @@ send: selector super: superFlag numArgs: numArgs
 	of the message are found in the top numArgs locations on the stack and 
 	the receiver just below them."
 	<layer: #ccm>
-	| receiver arguments returnValue nextContextOrNil |
+	| receiver arguments lookupClass returnValue nextContextOrNil |
 	arguments := Array new: numArgs.
 	numArgs to: 1 by: -1 do: [ :i | arguments at: i put: self pop].
 	receiver := self pop.
@@ -14,15 +14,19 @@ send: selector super: superFlag numArgs: numArgs
 	nextContextOrNil := self runProcessInConstraintsLibraryReceiver: receiver selector: selector arguments: arguments superFlag: superFlag.
 	nextContextOrNil ifNotNil: [^ nextContextOrNil].
 
-	(selector = 'signal') 
+	selector = #signal
 		ifTrue: [self halt].
 
-	selector = 'terminateProcess:' 
-		ifTrue: [ returnValue := arguments first.
-				self processReturnValueFromConstraintBlock: returnValue.
-				^ nil].
+	selector = #collectConstraintsFrom:
+		ifTrue: [
+			returnValue := arguments first.
+			self processReturnValueFromConstraintBlock: returnValue
+			"proceed but expect nothing in particular"].
 
+	lookupClass := superFlag
+					ifTrue: [method methodClassAssociation value superclass]
+					ifFalse: [self objectClass: receiver].
 	QuickStep == self ifTrue:
 		[QuickStep := nil.
-		^ self quickSend: selector to: receiver with: arguments super: superFlag].
-	^ self send: selector to: receiver with: arguments super: superFlag
+		^self quickSend: selector to: receiver with: arguments lookupIn: lookupClass].
+	^self send: selector to: receiver with: arguments lookupIn: lookupClass

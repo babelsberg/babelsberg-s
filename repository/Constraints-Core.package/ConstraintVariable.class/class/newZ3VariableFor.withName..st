@@ -6,7 +6,7 @@ newZ3VariableFor: aValue withName: aName
 	cv 
 		originalValue: aValue;
 		varValue: aValue;
-		solver: (Processor activeProcess environmentAt: #constraintObject) solver;
+		solver: self currentConstraintSolver;
 		varName: aName.
 	cv solver addVariable: cv.
 	^ cv

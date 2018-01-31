@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"alwaysSolveWith:" : "mg 6/6/2014 10:22",
-		"alwaysSolveWithDebug:" : "tfel 10/4/2014 12:06",
+		"alwaysSolveWith:" : "topa 1/31/2018 15:58",
+		"alwaysSolveWithDebug:" : "topa 1/31/2018 15:59",
 		"alwaysTrue" : "mg 5/5/2014 14:01",
-		"newTerminatingProcess" : "mg 7/3/2014 13:07",
-		"newTerminatingProcessArgs:" : "mg 7/3/2014 11:38",
-		"runInConstructionModeWithConstraint:andArgs:" : "mg 7/4/2014 13:58" } }
+		"collectConstraintsFrom:" : "topa 1/31/2018 15:56",
+		"newConstraintWith:" : "topa 1/31/2018 15:58",
+		"newProcessConstructing:" : "topa 1/31/2018 15:52",
+		"newProcessConstructing:args:" : "topa 1/31/2018 15:54",
+		"runInConstructionModeWithConstraint:andArgs:" : "topa 1/31/2018 15:55" } }

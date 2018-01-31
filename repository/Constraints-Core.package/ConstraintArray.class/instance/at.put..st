@@ -1,11 +1,10 @@
 accessing
 at: index put: obj
-
-	Processor activeProcess isConstructingConstraint
-		ifTrue: [super at: index put: obj]
+	
+	self isConstructingConstraint
 		ifFalse: [ | elem |
 			elem := super at: index.
 			elem isConstraintVariable 
-				ifTrue: [elem suggestValue: obj]
-				ifFalse: ["Maybe throw an error? or call super at:put:"
-						super at: index put: obj]].
+				ifTrue: [^ elem suggestValue: obj]].
+
+	super at: index put: obj.

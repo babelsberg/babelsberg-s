@@ -7,6 +7,6 @@ newCassowaryVariableFor: aNumber
 	cv 
 		originalValue: aNumber;
 		externalVariable: extVar;
-		solver: (Processor activeProcess environmentAt: #constraintObject) solver.
+		solver: self currentConstraintSolver.
 	cv solver addStay: cv.
 	^ cv

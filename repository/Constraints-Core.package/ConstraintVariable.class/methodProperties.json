@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"newCassowaryVariableFor:" : "mg 5/5/2014 14:07",
+		"newCassowaryVariableFor:" : "topa 9/15/2017 14:48",
 		"newConstantVariableFor:" : "mg 7/18/2014 14:04",
-		"newZ3VariableFor:" : "mg 5/13/2014 13:53",
-		"newZ3VariableFor:withName:" : "mg 5/13/2014 14:54" },
+		"newZ3VariableFor:" : "topa 9/15/2017 14:48",
+		"newZ3VariableFor:withName:" : "topa 9/15/2017 14:48" },
 	"instance" : {
 		"asConstantConstraintVariable" : "mg 6/19/2014 14:46",
 		"externalVariable" : "mg 4/16/2014 13:21",

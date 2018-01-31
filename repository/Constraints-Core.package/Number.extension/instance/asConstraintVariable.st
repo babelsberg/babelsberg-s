@@ -1,4 +1,4 @@
 *Constraints-Core
 asConstraintVariable
 
-	^ (Processor activeProcess environmentAt: #constraintObject) solver class constraintVariableFor: self
+	^ self currentConstraintSolver constraintVariableFor: self

@@ -1,9 +1,10 @@
 accessing
 at: index
 
-	Processor activeProcess isConstructingConstraint
-		ifTrue: [ | cv |
-				cv := (super at: index) asConstraintVariableForMethodName: 'constraintArrayItem'.
-				super at: index put: cv.
-				^ cv].
-	^ (super at: index) value
+	| cv atValue |
+	atValue := super at: index.
+	self isConstructingConstraint ifFalse: [^ atValue value].
+	
+	cv := atValue asConstraintVariableForMethodName: 'constraintArrayItem'.
+	super at: index put: cv.
+	^ cv

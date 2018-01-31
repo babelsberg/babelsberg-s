@@ -4,7 +4,9 @@ runInConstructionModeWithConstraint: aConstraint andArgs: anArray
 	| newProcess |
 	aConstraint isConstraintZ3
 		ifFalse: [self error: 'This method only works with Z3, yet.'. ^ nil].
-	newProcess := self newTerminatingProcessArgs: anArray.
-	[#ccm withLayerDo: [[newProcess step] doWhileFalse: [newProcess suspendedContext isNil]]]
-		ensure: [newProcess terminate].
+
+	newProcess := self newProcessConstructing: aConstraint args: anArray.
+	[[newProcess step] doWhileFalse: [newProcess suspendedContext isNil]
+	] ensure: [newProcess terminate].
+
 	^ aConstraint expressions

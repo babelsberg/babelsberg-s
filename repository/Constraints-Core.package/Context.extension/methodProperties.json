@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doPrimitive:method:receiver:args: (ccm)" : "topa 1/26/2018 17:05",
+		"jump:if: (ccm)" : "topa 1/26/2018 17:03",
+		"mayReplaceCollectionVariable:withName:ofReceiver: (ccm)" : "topa 1/26/2018 19:45",
+		"processReturnValueFromConstraintBlock: (ccm)" : "topa 1/26/2018 19:46",
+		"pushReceiverVariable: (ccm)" : "topa 1/26/2018 16:53",
+		"runProcessInConstraintsLibraryReceiver:selector:arguments:superFlag: (ccm)" : "topa 1/26/2018 19:48",
+		"send:super:numArgs: (ccm)" : "topa 1/29/2018 23:53",
+		"valueOrConstraintVariableFor:receiver:value: (ccm)" : "topa 1/26/2018 19:48" } }
